@@ -13,22 +13,22 @@ import ResizablePanel from "../components/ResizablePanel";
 
 const Home: NextPage = () => {
   const [loading, setLoading] = useState(false);
-  const [bio, setBio] = useState("");
+  const [desc, setDesc] = useState("");
   const [vibe, setVibe] = useState<VibeType>("English");
-  const [generatedBios, setGeneratedBios] = useState<string>("");
-  const defultBio = 'Tell David to have a meeting next Monday morning from Hudson.'
-  console.log("Streamed response: ", {generatedBios});
+  const [generatedDescs, setGeneratedDescs] = useState<string>("");
+  const defultDesc = 'Tell David to have a meeting next Monday morning from Hudson.'
+  console.log("Streamed response: ", {generatedDescs});
   let promptObj = {
     'English': "UK English",
     "中文": "Simplified Chinese"
   }
-  let text = bio||defultBio
+  let text = desc||defultDesc
   // Generate a business email in UK English that is friendly, but still professional and appropriate for the workplace. The email topic is: 
   const prompt = `Generate a business email in ${promptObj[vibe]} that is friendly, but still professional and appropriate for the workplace. The email topic is:${text}${text.slice(-1) === "." ? "" : "."}`
 
-  const generateBio = async (e: any) => {
+  const generateDesc = async (e: any) => {
     e.preventDefault();
-    setGeneratedBios("");
+    setGeneratedDescs("");
     setLoading(true);
     const response = await fetch("/api/generate", {
       method: "POST",
@@ -59,7 +59,7 @@ const Home: NextPage = () => {
       const { value, done: doneReading } = await reader.read();
       done = doneReading;
       const chunkValue = decoder.decode(value);
-      setGeneratedBios((prev) => prev + chunkValue);
+      setGeneratedDescs((prev) => prev + chunkValue);
     }
 
     setLoading(false);
@@ -122,12 +122,12 @@ const Home: NextPage = () => {
             </p>
           </div>
           <textarea
-            value={bio}
-            onChange={(e) => setBio(e.target.value)}
+            value={desc}
+            onChange={(e) => setDesc(e.target.value)}
             rows={4}
             className="w-full rounded-md border-gray-300 shadow-sm focus:border-black focus:ring-black my-2"
             placeholder={
-              "e.g. "+defultBio
+              "e.g. "+defultDesc
             }
           />
           <div className="flex mb-5 items-center space-x-3">
@@ -141,7 +141,7 @@ const Home: NextPage = () => {
           {!loading && (
             <button
               className="bg-black rounded-xl text-white font-medium px-4 py-2 sm:mt-4 mt-3 hover:bg-black/80 w-full"
-              onClick={(e) => generateBio(e)}
+              onClick={(e) => generateDesc(e)}
             >
               Generate your email &rarr;
             </button>
@@ -164,7 +164,7 @@ const Home: NextPage = () => {
         <ResizablePanel>
           <AnimatePresence mode="wait">
             <motion.div className="space-y-10 my-4">
-              {generatedBios && (
+              {generatedDescs && (
                 <>
                   <div>
                     <h2 className="sm:text-4xl text-3xl font-bold text-slate-900 mx-auto">
@@ -176,13 +176,13 @@ const Home: NextPage = () => {
                     <div
                       className="bg-white rounded-xl shadow-md p-4 hover:bg-gray-100 transition cursor-copy border text-left"
                       onClick={() => {
-                        navigator.clipboard.writeText(generatedBios);
-                        toast("Bio copied to clipboard", {
+                        navigator.clipboard.writeText(generatedDescs);
+                        toast("Email copied to clipboard", {
                           icon: "✂️",
                         });
                       }}
                     >
-                      <p>{generatedBios}</p>
+                      <p>{generatedDescs}</p>
                     </div>
                   </div>
                 </>
