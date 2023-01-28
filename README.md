@@ -2,7 +2,7 @@
 
 This project generates emails for you using AI.
 
-[![](./public/screenshot.png)](https://email-helper.vercel.app/)
+[![](./public/screenshot3.png)](https://email-helper.vercel.app/)
 
 ## How it works
 
