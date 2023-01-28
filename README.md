@@ -1,8 +1,8 @@
-# [TwitterBio.com](https://www.twitterbio.com/)
+# [EmailHelper](https://email-helper.vercel.app/)
 
-This project generates Twitter bios for you using AI.
+This project generates emails for you using AI.
 
-[![Twitter Bio Generator](./public/screenshot.png)](https://www.twitterbio.com)
+[![Twitter Bio Generator](./public/screenshot.png)](https://email-helper.vercel.app/)
 
 ## How it works
 

@@ -73,7 +73,7 @@ const Home: NextPage = () => {
 
       {/* <Header /> */}
       <main className="flex flex-1 w-full flex-col items-center justify-center text-center px-4 mt-2 sm:mt-4">
-        <h1 className="sm:text-6xl text-4xl max-w-2xl font-bold text-slate-900">
+        <h1 className="sm:text-3xl text-2xl max-w-1xl font-bold text-slate-900">
           Generate your business emails in seconds
         </h1>
         {/* <p className="text-slate-500 mt-5">18,167 bios generated so far.</p> */}
