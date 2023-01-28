@@ -14,7 +14,7 @@ const Home: NextPage = () => {
   const [loading, setLoading] = useState(false);
   const [bio, setBio] = useState("");
   const [vibe, setVibe] = useState<VibeType>("English");
-  const [generatedBios, setGeneratedBios] = useState<String>("");
+  const [generatedBios, setGeneratedBios] = useState<string>("");
   const defultBio = 'Tell David to have a meeting next Monday morning from Hudson.'
   console.log("Streamed response: ", {generatedBios});
   let promptObj = {
