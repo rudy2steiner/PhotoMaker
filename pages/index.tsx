@@ -121,7 +121,7 @@ const Home: NextPage = () => {
               alt="1 icon"
             />
             <p className="text-left font-medium">
-              Write a few sentences about email .
+              Write a few sentences about your desired email.
             </p>
           </div>
           <textarea
