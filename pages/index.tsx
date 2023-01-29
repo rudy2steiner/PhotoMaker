@@ -21,6 +21,7 @@ const Home: NextPage = () => {
   let promptObj = {
     'English': "UK English",
     "中文": "Simplified Chinese",
+    "繁體中文":"Traditional Chinese",
     "日本語":"Japanese",
     "Italiano":"Italian",
     "Deutsch":"German",
