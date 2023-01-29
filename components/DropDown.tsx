@@ -10,14 +10,24 @@ function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(" ");
 }
 
-export type VibeType = "English" | "中文" |"繁體中文" | "日本語" | "Italiano" |"Español"|"Deutsch"|"Français"|"Español"|"Nederlands";
+const vibes = [
+  "English",
+  "中文",
+  "繁體中文",
+  "日本語",
+  "Italiano",
+  "Español",
+  "Deutsch",
+  "Français",
+  "Nederlands",
+] as const;
+
+export type VibeType = typeof vibes[number];
 
 interface DropDownProps {
   vibe: VibeType;
   setVibe: (vibe: VibeType) => void;
 }
-
-let vibes: VibeType[] = ["English","中文" ,"繁體中文","日本語","Italiano","Español","Deutsch","Français","Español","Nederlands"];
 
 export default function DropDown({ vibe, setVibe }: DropDownProps) {
   return (
