@@ -24,7 +24,8 @@ const Home: NextPage = () => {
     "日本語":"Japanese",
     "Italiano":"Italian",
     "Deutsch":"German",
-    "Español":"Spanish"
+    "Español":"Spanish",
+    "Français":"French"
   }
   let text = desc||defultDesc
   // Generate a business email in UK English that is friendly, but still professional and appropriate for the workplace. The email topic is: 
