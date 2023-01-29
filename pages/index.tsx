@@ -109,13 +109,12 @@ const Home: NextPage = () => {
         </h1>
         {/* <p className="text-slate-500 mt-5">18,167 bios generated so far.</p> */}
         <div className="max-w-xl w-full">
-          <div className="flex mt-4 items-center space-x-3">
+          <div className="flex mt-4 items-center space-x-3 mb-3">
             <Image
               src="/1-black.png"
               width={30}
               height={30}
               alt="1 icon"
-              className="mb-5 sm:mb-0"
             />
             <p className="text-left font-medium">
               Write a few sentences about email .
