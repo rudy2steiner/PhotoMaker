@@ -11,7 +11,7 @@ export default function Footer() {
           rel="noreferrer"
           className="font-bold hover:underline transition underline-offset-2"
         >
-          OpenAI{" "}
+          OpenAI
         </a>
         {" + "}
         <a
