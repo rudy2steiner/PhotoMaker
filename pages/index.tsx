@@ -20,7 +20,9 @@ const Home: NextPage = () => {
   console.log("Streamed response: ", {generatedDescs});
   let promptObj = {
     'English': "UK English",
-    "中文": "Simplified Chinese"
+    "中文": "Simplified Chinese",
+    "日本語":"Japanese",
+    "Italiano":"Italian"
   }
   let text = desc||defultDesc
   // Generate a business email in UK English that is friendly, but still professional and appropriate for the workplace. The email topic is: 
