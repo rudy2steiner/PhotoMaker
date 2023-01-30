@@ -6,7 +6,7 @@ export default function Footer() {
       <div>
         Powered by{" "}
         <a
-          href="https://beta.openai.com/"
+          href="https://beta.openai.com/account"
           target="_blank"
           rel="noreferrer"
           className="font-bold hover:underline transition underline-offset-2"
