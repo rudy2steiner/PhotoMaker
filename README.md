@@ -5,7 +5,9 @@ This project generates emails for you using AI.
 [![](./public/screenshot3.png)](https://email-helper.vercel.app/)
 
 ## Support
-`English`, `中文`, `日本語`, `Italiano`, `Deutsch`, `Español`, `Français`,`繁體中文`,`Nederlands`
+`English`, `中文`, `日本語`, `Italiano`, `Deutsch`, `Español`, `Français`,`繁體中文`,`Nederlands` 
+
+PR welcome
 
 ## How it works
 
