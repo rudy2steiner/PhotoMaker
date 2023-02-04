@@ -1,6 +1,6 @@
 # [teach-anything](https://teach-anything.vercel.app/)
 
-This project generates emails for you using AI.
+Teach you anything in seconds use AI.
 
 ## Support
 `English`, `Simplified Chinese`, `Traditional Chinese`, `Japanese`, `Italian`, `German`, `Spanish`,`French`,`Dutch` ,`Korean`,`Khmer`, `Hindi`

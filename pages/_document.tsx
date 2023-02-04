@@ -8,16 +8,16 @@ class MyDocument extends Document {
           <link rel="icon" href="/favicon.ico" />
           <meta
             name="description"
-            content="Generate your business email"
+            content="Teach you anything in seconds use AI."
           />
           <meta
             property="og:description"
-            content="Generate your business email in seconds."
+            content="Teach you anything in seconds use AI."
           />
-          <meta property="og:title" content="Busness Email Generator" />
+          <meta property="og:title" content="Teach anything" />
           <meta
             name="twitter:description"
-            content="Generate your business email in seconds."
+            content="Teach you anything in seconds use AI."
           />
           <meta
             property="og:image"

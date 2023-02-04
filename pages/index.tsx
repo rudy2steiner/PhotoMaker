@@ -111,7 +111,7 @@ const Home: NextPage = () => {
         </div>
 
         <h1 className="sm:text-3xl text-2xl max-w-1xl font-bold text-slate-900">
-          Teach you anything in seconds use AI
+          Teach you anything in seconds
         </h1>
         {/* <p className="text-slate-500 mt-5">18,167 bios generated so far.</p> */}
         <div className="max-w-xl w-full">
@@ -182,7 +182,7 @@ const Home: NextPage = () => {
                       className="bg-white rounded-xl shadow-md p-4 hover:bg-gray-100 transition cursor-copy border text-left"
                       onClick={() => {
                         navigator.clipboard.writeText(generatedDescs);
-                        toast("Email copied to clipboard", {
+                        toast("Text copied to clipboard", {
                           icon: "✂️",
                         });
                       }}
