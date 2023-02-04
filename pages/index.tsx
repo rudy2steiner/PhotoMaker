@@ -16,7 +16,7 @@ const Home: NextPage = () => {
   const [desc, setDesc] = useState("");
   const [lang, setLang] = useState<VibeType>("English");
   const [generatedDescs, setGeneratedDescs] = useState<string>("");
-  const defultDesc = 'Tell David to have a meeting next Monday morning from Hudson.'
+  const defultDesc = 'How to explain relativity?'
   console.log("Streamed response: ", {generatedDescs});
   let promptObj = {
     'English': "UK English",
@@ -34,7 +34,7 @@ const Home: NextPage = () => {
   }
   let text = desc||defultDesc
   // Generate a business email in UK English that is friendly, but still professional and appropriate for the workplace. The email topic is:
-  const prompt = `Generate a business email in ${promptObj[lang]} that is friendly, but still professional and appropriate for the workplace. The email topic is:${text}${text.slice(-1) === "." ? "" : "."}`
+  const prompt = `Explain ${text}${text.slice(-1) === "." ? "" : "."} to a 6nd grader in ${promptObj[lang]} with a simple example.`
 
   const generateDesc = async (e: any) => {
     e.preventDefault();
