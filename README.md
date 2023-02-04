@@ -1,8 +1,6 @@
-# [EmailHelper](https://email-helper.vercel.app/)
+# [teach-anything](https://teach-anything.vercel.app/)
 
 This project generates emails for you using AI.
-
-[![](./public/screenshot3.png)](https://email-helper.vercel.app/)
 
 ## Support
 `English`, `Simplified Chinese`, `Traditional Chinese`, `Japanese`, `Italian`, `German`, `Spanish`,`French`,`Dutch` ,`Korean`,`Khmer`, `Hindi`
