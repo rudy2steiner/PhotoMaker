@@ -14,7 +14,7 @@ class MyDocument extends Document {
             property="og:description"
             content="Teach you anything in seconds use AI."
           />
-          <meta property="og:title" content="Teach anything" />
+          <meta property="og:title" content="Teach Anything" />
           <meta
             name="twitter:description"
             content="Teach you anything in seconds use AI."

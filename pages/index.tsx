@@ -6,7 +6,7 @@ import { useState } from "react";
 import { Toaster, toast } from "react-hot-toast";
 import DropDown, { VibeType } from "../components/DropDown";
 import Footer from "../components/Footer";
-// import Header from "../components/Header";
+import Header from "../components/Header";
 import Github from "../components/GitHub";
 import LoadingDots from "../components/LoadingDots";
 import ResizablePanel from "../components/ResizablePanel";
@@ -78,42 +78,16 @@ const Home: NextPage = () => {
   return (
     <div className="flex max-w-5xl mx-auto flex-col items-center justify-center py-2 min-h-screen">
       <Head>
-        <title>Teach anything</title>
+        <title>Teach Anything</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <Header/>
+
       <main className="flex flex-1 w-full flex-col items-center justify-center text-center px-4 mt-2 sm:mt-4">
-        <div className="flex flex-wrap justify-center space-x-5">
-          <a
-            className="flex max-w-fit items-center justify-center space-x-2 rounded-full border border-gray-300 bg-white px-4 py-2 text-sm text-gray-600 shadow-md transition-colors hover:bg-gray-100 mb-5"
-            href="https://twitter.com/lvwzhen"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <svg
-              aria-hidden="true"
-              className="h-6 w-6 fill-slate-500 group-hover:fill-slate-700"
-            >
-              <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0 0 22 5.92a8.19 8.19 0 0 1-2.357.646 4.118 4.118 0 0 0 1.804-2.27 8.224 8.224 0 0 1-2.605.996 4.107 4.107 0 0 0-6.993 3.743 11.65 11.65 0 0 1-8.457-4.287 4.106 4.106 0 0 0 1.27 5.477A4.073 4.073 0 0 1 2.8 9.713v.052a4.105 4.105 0 0 0 3.292 4.022 4.093 4.093 0 0 1-1.853.07 4.108 4.108 0 0 0 3.834 2.85A8.233 8.233 0 0 1 2 18.407a11.615 11.615 0 0 0 6.29 1.84" />
-            </svg>
-            <p>Twitter</p>
-          </a>
-
-          <a
-            className="flex max-w-fit items-center justify-center space-x-2 rounded-full border border-gray-300 bg-white px-4 py-2 text-sm text-gray-600 shadow-md transition-colors hover:bg-gray-100 mb-5"
-            href="https://github.com/lvwzhen/teach-anything"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Github />
-            <p>Star on GitHub</p>
-          </a>
-        </div>
-
         <h1 className="sm:text-3xl text-2xl max-w-1xl font-bold text-slate-900">
           Teach you anything in seconds
         </h1>
-        {/* <p className="text-slate-500 mt-5">18,167 bios generated so far.</p> */}
         <div className="max-w-xl w-full">
           <div className="flex mt-4 items-center space-x-3 mb-3">
             <Image
