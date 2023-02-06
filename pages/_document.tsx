@@ -24,14 +24,12 @@ class MyDocument extends Document {
           />
           <meta
             property="og:image"
-            content="https://twitterbio.com/og-image.png"
+            content="https://www.teach-anything.com/og-image.png"
           />
           <meta
             name="twitter:image"
-            content="https://twitterbio.com/og-image.png"
+            content="https://www.teach-anything.com/og-image.png"
           />
-          {/* <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6121888364111270"
-     crossOrigin="anonymous"></script> */}
         </Head>
         <body>
           <Main />
