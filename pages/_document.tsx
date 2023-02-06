@@ -26,10 +26,11 @@ class MyDocument extends Document {
             property="og:image"
             content="https://www.teach-anything.com/og-image.png"
           />
-          <meta
-            name="twitter:image"
-            content="https://www.teach-anything.com/og-image.png"
-          />
+          <meta name="twitter:card" content="summary_large_image"/>
+          <meta name="twitter:site" content="@lvwzhen"/>
+          <meta name="twitter:title" content="Teach Anything"/>
+          <meta name="twitter:description" content="Teach you anything in seconds use AI"/>
+          <meta name="twitter:image" content="https://www.teach-anything.com/og-image.png"/>
         </Head>
         <body>
           <Main />
