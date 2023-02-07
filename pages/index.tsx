@@ -16,9 +16,10 @@ const Home: NextPage = () => {
   const [loading, setLoading] = useState(false);
   const [desc, setDesc] = useState("");
   const [lang, setLang] = useState<VibeType>("English");
-  const [lang2, setLang2] = useState<VibeType2>("Easy");
+  const [difficulty, setDifficulty] = useState<VibeType2>("Easy");
   const [generatedDescs, setGeneratedDescs] = useState<string>("");
   const defultDesc = 'How to explain relativity?'
+
   console.log("Streamed response: ", {generatedDescs});
   let promptObj = {
     'English': "UK English",
@@ -34,13 +35,19 @@ const Home: NextPage = () => {
     "ភាសាខ្មែរ":"Khmer",
     "हिंदी" : "Hindi"
   }
+  let difficultyObj = {
+    'Easy': "Easy",
+    'Profession': "Profession",
+  }
   let text = desc||defultDesc
+  
   const generateDesc = async (e: any) => {
-      if (lang2 == "Easy"){
-        const prompt = `Explain ${text}${text.slice(-1) === "." ? "" : "."} to a 6nd grader in ${promptObj[lang]} with a simple example.`
-      } else{
-        const prompt = `Explain ${text}${text.slice(-1) === "." ? "" : "."} in ${promptObj[lang]}  in technical terms, divided into two paragraphs, principles and applications. Output format, Principle:, Application.`
-      }
+    let prompt;
+    if (difficultyObj[difficulty]=="Easy"){
+      prompt = `Explain ${text}${text.slice(-1) === "." ? "" : "."} to a 6nd grader in ${promptObj[lang]} with a simple example.`;
+    } else{
+      prompt = `Explain ${text}${text.slice(-1) === "." ? "" : "."} in ${promptObj[lang]}  in technical terms, divided into two paragraphs, principles and applications. Output format, Principle:, Application.`;
+    }
     e.preventDefault();
     setGeneratedDescs("");
     setLoading(true);
@@ -124,7 +131,7 @@ const Home: NextPage = () => {
             <p className="text-left font-medium">Select difficulty</p>
           </div>
           <div className="block">
-            <DropDown2 vibe={lang2} setVibe2={(newLang2) => setLang2(newLang2)} />
+            <DropDown2 vibe2={difficulty} setVibe2={(newDifficulty) => setDifficulty(newDifficulty)} />
           </div>
 
           {!loading && (
