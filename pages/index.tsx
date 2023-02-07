@@ -5,6 +5,7 @@ import Image from "next/image";
 import { useState } from "react";
 import { Toaster, toast } from "react-hot-toast";
 import DropDown, { VibeType } from "../components/DropDown";
+import DropDown2, { VibeType2 } from "../components/DropDown2";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Github from "../components/GitHub";
@@ -15,8 +16,10 @@ const Home: NextPage = () => {
   const [loading, setLoading] = useState(false);
   const [desc, setDesc] = useState("");
   const [lang, setLang] = useState<VibeType>("English");
+  const [difficulty, setDifficulty] = useState<VibeType2>("Easy");
   const [generatedDescs, setGeneratedDescs] = useState<string>("");
   const defultDesc = 'How to explain relativity?'
+
   console.log("Streamed response: ", {generatedDescs});
   let promptObj = {
     'English': "UK English",
@@ -32,11 +35,19 @@ const Home: NextPage = () => {
     "ភាសាខ្មែរ":"Khmer",
     "हिंदी" : "Hindi"
   }
+  let difficultyObj = {
+    'Easy': "Easy",
+    'Profession': "Profession",
+  }
   let text = desc||defultDesc
-  // Generate a business email in UK English that is friendly, but still professional and appropriate for the workplace. The email topic is:
-  const prompt = `Explain ${text}${text.slice(-1) === "." ? "" : "."} to a 6nd grader in ${promptObj[lang]} with a simple example.`
-
+  
   const generateDesc = async (e: any) => {
+    let prompt;
+    if (difficultyObj[difficulty]=="Easy"){
+      prompt = `Explain ${text}${text.slice(-1) === "." ? "" : "."} to a 6nd grader in ${promptObj[lang]} with a simple example.`;
+    } else{
+      prompt = `Explain ${text}${text.slice(-1) === "." ? "" : "."} in ${promptObj[lang]}  in technical terms, divided into two paragraphs, principles and applications. Output format, Principle:, Application.`;
+    }
     e.preventDefault();
     setGeneratedDescs("");
     setLoading(true);
@@ -93,12 +104,7 @@ const Home: NextPage = () => {
         </h1>
         <div className="max-w-xl w-full">
           <div className="flex mt-4 items-center space-x-3 mb-3">
-            <Image
-              src="/1-black.png"
-              width={30}
-              height={30}
-              alt="1 icon"
-            />
+            <span className="w-7 h-7 rounded-full bg-black text-white text-center leading-7">1</span>
             <p className="text-left font-medium">
               Write your question
             </p>
@@ -113,11 +119,19 @@ const Home: NextPage = () => {
             }
           />
           <div className="flex mb-5 items-center space-x-3">
-            <Image src="/2-black.png" width={30} height={30} alt="1 icon" />
-            <p className="text-left font-medium">Select your language.</p>
+            <span className="w-7 h-7 rounded-full bg-black text-white text-center leading-7">2</span>
+            <p className="text-left font-medium">Select your language</p>
           </div>
           <div className="block">
             <DropDown vibe={lang} setVibe={(newLang) => setLang(newLang)} />
+          </div>
+
+          <div className="flex mb-5 items-center space-x-3 mt-3">
+            <span className="w-7 h-7 rounded-full bg-black text-white text-center leading-7">3</span>
+            <p className="text-left font-medium">Select difficulty</p>
+          </div>
+          <div className="block">
+            <DropDown2 vibe2={difficulty} setVibe2={(newDifficulty) => setDifficulty(newDifficulty)} />
           </div>
 
           {!loading && (
