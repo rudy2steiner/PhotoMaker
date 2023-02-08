@@ -198,6 +198,26 @@ const Home: NextPage = () => {
               Share on Twitter
             </a>
         </div>
+        <div className="my-5 max-w-xl w-full">
+          <h2 className=" text-slate-400 mb-4">SUPPORTED BY</h2>
+          <ul className="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm">
+            <li>
+              <a href="https://e.cash" className="flex px-2 items-center justify-center h-14 hover:bg-slate-50 rounded-lg hover:transition-all">
+                <img className="h-6 object-contain" src="/ecash.png" alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="https://sailboatui.com/?ref=teach-anything" className="flex px-2 items-center justify-center h-14 hover:bg-slate-50 rounded-lg hover:transition-all">
+                <img className="h-6 object-contain"src="/sailboatui.svg" alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.buymeacoffee.com/lvwzhen" className="flex px-2 items-center justify-center h-14 hover:bg-slate-100 rounded-lg hover:transition-all border border-dashed border-slate-200 bg-slate-50">
+                <p className="h-6 leading-6">❤️ Your logo</p>
+              </a>
+            </li>
+          </ul>
+        </div>
       </main>
       <Footer />
       <div className="p-5 text-center md:fixed right-0 bottom-10">
