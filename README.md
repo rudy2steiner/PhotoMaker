@@ -1,10 +1,40 @@
-# [teach-anything](https://teach-anything.vercel.app/)
+# [Teach Anything](https://www.teach-anything.com/)
 
 Teach you anything in seconds use AI.
 
 https://user-images.githubusercontent.com/2337506/216798367-2b5e3bc7-5cbd-4173-9ea7-0e1e85ea87dc.mov
 
-## Support
+## Sponsor
+
+<table>
+  <tr>
+    <td>
+        <a href="https://e.cash" target="_blank" >
+            <img alt="eCash" src="public/ecash.png" height="64px;" >
+        </a>
+    </td>
+    <td >
+        <a href="https://neuronadigital.academy/" target="_blank" >
+            <img alt="eCash" src="public/NeuronaDigital.jpg" height="64px;" >
+        </a>
+    </td>
+  </tr>
+   <tr>
+    <td >
+        <a href="https://sailboatui.com/?ref=teach-anything" target="_blank" >
+            <img alt="eCash" src="public/sailboatui.svg" height="64px;" >
+        </a>
+    </td>
+    <td >
+        <a href="https://www.buymeacoffee.com/lvwzhen" target="_blank" >
+            ❤️ Your logo
+        </a>
+    </td>
+  </tr>
+</table>
+
+
+## Language support
 `English`, `Simplified Chinese`, `Traditional Chinese`, `Japanese`, `Italian`, `German`, `Spanish`,`French`,`Dutch` ,`Korean`,`Khmer`, `Hindi`
 
 PR welcome
