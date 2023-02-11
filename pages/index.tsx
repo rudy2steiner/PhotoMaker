@@ -101,10 +101,11 @@ const Home: NextPage = () => {
 
       <Header/>
 
-      <main className="flex flex-1 w-full flex-col items-center justify-center text-center px-4 mt-2 sm:mt-4">
-        <h1 className="sm:text-3xl text-2xl max-w-1xl font-bold text-slate-900">
-          Teach you anything in seconds
+      <main className="flex flex-1 w-full flex-col items-center justify-center text-center px-4 mt-2 sm:my-16">
+        <h1 className="sm:text-4xl text-2xl max-w-1xl font-bold text-slate-900">
+          Teach you <span className="bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 bg-clip-text text-transparent">Anything</span> in seconds
         </h1>
+        <p className="text-slate-500 my-5">74,684 answers generated so far.</p>
         <div className="max-w-xl w-full">
           <div className="flex mt-4 items-center space-x-3 mb-3">
             <span className="w-7 h-7 rounded-full bg-black text-white text-center leading-7">1</span>
@@ -116,12 +117,12 @@ const Home: NextPage = () => {
             value={desc}
             onChange={(e) => setDesc(e.target.value)}
             rows={4}
-            className="w-full rounded-md border-gray-300 shadow-sm focus:border-black focus:ring-black my-2"
+            className="w-full rounded-md border-gray-300 shadow-sm focus:border-black focus:ring-black block"
             placeholder={
               "e.g. "+defultDesc
             }
           />
-          <div className="flex mb-5 items-center space-x-3">
+          <div className="flex my-4 items-center space-x-3">
             <span className="w-7 h-7 rounded-full bg-black text-white text-center leading-7">2</span>
             <p className="text-left font-medium">Select your language</p>
           </div>
@@ -129,7 +130,7 @@ const Home: NextPage = () => {
             <DropDown vibe={lang} setVibe={(newLang) => setLang(newLang)} />
           </div>
 
-          <div className="flex mb-5 items-center space-x-3 mt-3">
+          <div className="flex my-4 items-center space-x-3">
             <span className="w-7 h-7 rounded-full bg-black text-white text-center leading-7">3</span>
             <p className="text-left font-medium">Select difficulty</p>
           </div>
