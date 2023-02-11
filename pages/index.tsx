@@ -203,12 +203,17 @@ const Home: NextPage = () => {
           <ul className="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm">
             <li>
               <a href="https://e.cash" className="flex px-2 items-center justify-center h-14 hover:bg-slate-50 rounded-lg hover:transition-all">
-                <img className="h-6 object-contain" src="/ecash.png" alt="" />
+                <img className="h-6 object-contain" src="/ecash.png" alt="eCash" />
+              </a>
+            </li>
+            <li>
+              <a href="https://neuronadigital.academy/" className="flex px-2 items-center justify-center h-14 hover:bg-slate-50 rounded-lg hover:transition-all">
+                <img className="h-6 object-contain" src="/NeuronaDigital.jpg" alt="Neurona Digital" />
               </a>
             </li>
             <li>
               <a href="https://sailboatui.com/?ref=teach-anything" className="flex px-2 items-center justify-center h-14 hover:bg-slate-50 rounded-lg hover:transition-all">
-                <img className="h-6 object-contain"src="/sailboatui.svg" alt="" />
+                <img className="h-6 object-contain"src="/sailboatui.svg" alt="Sailboat UI" />
               </a>
             </li>
             <li>
