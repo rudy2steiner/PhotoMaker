@@ -23,6 +23,7 @@ const vibes = [
   "한국어",
   "ភាសាខ្មែរ",
   "हिंदी",
+  "Indonesian"
 ] as const;
 
 export type VibeType = typeof vibes[number];
