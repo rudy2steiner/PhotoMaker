@@ -34,7 +34,8 @@ const Home: NextPage = () => {
     "Nederlands": "Dutch",
     "한국어": "Korean",
     "ភាសាខ្មែរ":"Khmer",
-    "हिंदी" : "Hindi"
+    "हिंदी" : "Hindi",
+    "Indonesian" : "Indonesian"
   }
   let difficultyObj = {
     'Easy': "Easy",
