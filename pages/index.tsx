@@ -214,6 +214,11 @@ const Home: NextPage = () => {
               </a>
             </li>
             <li>
+              <a href="https://talentorg.com.cn/" className="flex px-2 items-center justify-center h-14 hover:bg-slate-50 rounded-lg hover:transition-all">
+                <img className="h-6 object-contain" src="/talentorg.svg" alt="TalentOrg-雇佣全世界Top1%的人才" />
+              </a>
+            </li>
+            <li>
               <a href="https://sailboatui.com/?ref=teach-anything" className="flex px-2 items-center justify-center h-14 hover:bg-slate-50 rounded-lg hover:transition-all">
                 <img className="h-6 object-contain"src="/sailboatui.svg" alt="Sailboat UI" />
               </a>
