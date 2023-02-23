@@ -139,10 +139,10 @@ const Home: NextPage = () => {
             <DropDown2 vibe2={difficulty} setVibe2={(newDifficulty) => setDifficulty(newDifficulty)} />
           </div>
 
-          <div className="flex sm:mt-6 mt-3 gap-4">
-            {!loading && (
+          <div className="md:flex sm:mt-6 mt-4 space-y-4 md:space-y-0 gap-4">
+            {!loading && (  
               <button
-                className="bg-black rounded-xl text-white font-medium px-4 py-2 hover:bg-black/80 w-full"
+                className="bg-black md:flex-1 rounded-xl text-white font-medium px-4 py-2 hover:bg-black/80 w-full"
                 onClick={(e) => generateDesc(e)}
               >
                 Generate answer
@@ -150,13 +150,13 @@ const Home: NextPage = () => {
             )}
             {loading && (
               <button
-                className="bg-black rounded-xl text-white font-medium px-4 py-2 hover:bg-black/80 w-full"
+                className="bg-black md:flex-1 rounded-xl text-white font-medium px-4 py-2 hover:bg-black/80 w-full"
                 disabled
               >
                 <LoadingDots color="white" style="large" />
               </button>
             )}
-            <a href="https://magickpen.com/" className="bg-white border border-gray-300 rounded-xl text-black font-medium px-4 py-2 hover:bg-gradient-to-r hover:text-white transition-colors  duration-300 from-rose-400 via-fuchsia-500 to-indigo-500 w-full">
+            <a href="https://magickpen.com/" className="bg-white block md:flex-1 border border-gray-300 rounded-xl text-black font-medium px-4 py-2 hover:bg-gradient-to-r hover:text-white transition-colors  duration-300 from-rose-400 via-fuchsia-500 to-indigo-500 w-full">
                Get Pro version &rarr;
             </a>
           </div>
