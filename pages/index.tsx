@@ -139,22 +139,27 @@ const Home: NextPage = () => {
             <DropDown2 vibe2={difficulty} setVibe2={(newDifficulty) => setDifficulty(newDifficulty)} />
           </div>
 
-          {!loading && (
-            <button
-              className="bg-black rounded-xl text-white font-medium px-4 py-2 sm:mt-4 mt-3 hover:bg-black/80 w-full"
-              onClick={(e) => generateDesc(e)}
-            >
-              Get the answer &rarr;
-            </button>
-          )}
-          {loading && (
-            <button
-              className="bg-black rounded-xl text-white font-medium px-4 py-2 sm:mt-4 mt-3 hover:bg-black/80 w-full"
-              disabled
-            >
-              <LoadingDots color="white" style="large" />
-            </button>
-          )}
+          <div className="flex sm:mt-6 mt-3 gap-4">
+            {!loading && (
+              <button
+                className="bg-black rounded-xl text-white font-medium px-4 py-2 hover:bg-black/80 w-full"
+                onClick={(e) => generateDesc(e)}
+              >
+                Generate answer
+              </button>
+            )}
+            {loading && (
+              <button
+                className="bg-black rounded-xl text-white font-medium px-4 py-2 hover:bg-black/80 w-full"
+                disabled
+              >
+                <LoadingDots color="white" style="large" />
+              </button>
+            )}
+            <a href="https://magickpen.com/" className="bg-white border border-gray-300 rounded-xl text-black font-medium px-4 py-2 hover:bg-gradient-to-r hover:text-white transition-colors  duration-300 from-rose-400 via-fuchsia-500 to-indigo-500 w-full">
+               Get Pro version &rarr;
+            </a>
+          </div>
         </div>
         <Toaster
           position="top-center"
@@ -203,6 +208,11 @@ const Home: NextPage = () => {
         <div className="my-5 max-w-xl w-full">
           <h2 className=" text-slate-400 mb-4">SUPPORTED BY</h2>
           <ul className="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm">
+            <li>
+              <a href="https://magickpen.com/" className="flex px-2 items-center justify-center h-14 hover:bg-slate-50 rounded-lg hover:transition-all">
+                <img className="h-6 object-contain" src="/magickpen.svg" alt="MagickPen" />
+              </a>
+            </li>
             <li>
               <a href="https://e.cash" className="flex px-2 items-center justify-center h-14 hover:bg-slate-50 rounded-lg hover:transition-all">
                 <img className="h-6 object-contain" src="/ecash.png" alt="eCash" />
