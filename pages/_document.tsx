@@ -31,8 +31,13 @@ class MyDocument extends Document {
           <meta name="twitter:title" content="Teach Anything"/>
           <meta name="twitter:description" content="Teach you anything in seconds use AI"/>
           <meta name="twitter:image" content="https://www.teach-anything.com/og-image.png"/>
-          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9181833886721130"
-     crossorigin="anonymous"></script>
+          <Script
+             id="Adsense-id"
+             data-ad-client="ca-pub-9181833886721130"
+             async="true"
+             strategy="beforeInteractive"
+              src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+          />
         </Head>
         <body>
           <Main />
