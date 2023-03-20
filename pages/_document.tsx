@@ -35,9 +35,8 @@ class MyDocument extends Document {
           <Script
              id="Adsense-id"
              data-ad-client="ca-pub-9181833886721130"
-             async="true"
              strategy="beforeInteractive"
-              src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+             src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
           />
         </Head>
         <body>
