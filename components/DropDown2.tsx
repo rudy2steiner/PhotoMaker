@@ -12,7 +12,7 @@ function classNames(...classes: string[]) {
 
 const vibes = [
   "Easy",
-  "Profession",
+  "Professional",
 ] as const;
 
 export type VibeType2 = typeof vibes[number];
