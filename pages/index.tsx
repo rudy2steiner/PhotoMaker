@@ -156,7 +156,7 @@ const Home: NextPage = () => {
                 <LoadingDots color="white" style="large" />
               </button>
             )}
-            <a href="https://magickpen.com/" className="bg-white block md:flex-1 border border-gray-300 rounded-xl text-black font-medium px-4 py-2 hover:bg-gradient-to-r hover:text-white transition-colors  duration-300 from-rose-400 via-fuchsia-500 to-indigo-500 w-full">
+            <a href="https://magickpen.com/" className="pro-btn  block md:flex-1 border border-transparent rounded-xl font-medium px-4 py-2 w-full">
                Get Pro version &rarr;
             </a>
           </div>
