@@ -7,7 +7,7 @@
   background-image: linear-gradient(to right, rgb(251, 113, 133), rgb(217, 70, 239), rgb(99, 102, 241), rgb(217, 70, 239),rgb(251, 113, 133)),
                     linear-gradient(to right, rgb(251, 113, 133), rgb(217, 70, 239), rgb(99, 102, 241), rgb(217, 70, 239),rgb(251, 113, 133));
   background-size: 200% 100%;
-  animation: text-gradient 1s linear infinite;
+  animation: text-gradient 2s linear infinite;
   color: #fff;
 }
 
@@ -18,9 +18,4 @@
   100% {
     background-position: 200% 0%;
   }
-}
-
-.pro-btn:hover{
-  background: #fff;
-  @apply text-black;
 }
