@@ -106,7 +106,7 @@ const Home: NextPage = () => {
         <h1 className="sm:text-4xl text-2xl max-w-1xl font-bold text-slate-900">
           Teach you <span className="bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 bg-clip-text text-transparent">Anything</span> in seconds
         </h1>
-        <p className="text-slate-500 my-5">458,777 answers generated so far.</p>
+        <p className="text-slate-500 my-5">623,625 answers generated so far.</p>
         <div className="max-w-xl w-full">
           <div className="flex mt-4 items-center space-x-3 mb-3">
             <span className="w-7 h-7 rounded-full bg-black text-white text-center leading-7">1</span>
