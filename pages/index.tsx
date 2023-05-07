@@ -210,17 +210,17 @@ const Home: NextPage = () => {
           <ul className="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm">
             <li>
               <a href="https://magickpen.com/" className="flex px-2 items-center justify-center h-14 hover:bg-slate-50 rounded-lg hover:transition-all">
-                <img className="h-6 object-contain" src="/magickpen.svg" alt="MagickPen" />
+                <img className="h-6 object-contain" src="/magickpen.svg" alt="MagickPen - Write Anything in Seconds Just like Magick" />
               </a>
             </li>
             <li>
-              <a href="https://e.cash" className="flex px-2 items-center justify-center h-14 hover:bg-slate-50 rounded-lg hover:transition-all">
-                <img className="h-6 object-contain" src="/ecash.png" alt="eCash" />
+              <a href="https://better.avatarprompt.net/" className="flex px-2 items-center justify-center h-14 hover:bg-slate-50 rounded-lg hover:transition-all">
+                <img className="h-6 object-contain" src="/BetterPrompt.png" alt="BetterPrompt - Make Your Midjourney Prompt Better!" />
               </a>
             </li>
             <li>
-              <a href="https://neuronadigital.academy/" className="flex px-2 items-center justify-center h-14 hover:bg-slate-50 rounded-lg hover:transition-all">
-                <img className="h-6 object-contain" src="/NeuronaDigital.jpg" alt="Neurona Digital" />
+              <a href="https://openl.io/" className="flex px-2 items-center justify-center h-14 hover:bg-slate-50 rounded-lg hover:transition-all">
+                <img className="h-6 object-contain" src="/OpenL.png" alt="OpenL - Amazing Translator, powered by AI" />
               </a>
             </li>
             <li>
