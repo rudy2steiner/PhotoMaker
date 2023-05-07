@@ -14,13 +14,13 @@ https://user-images.githubusercontent.com/2337506/216798367-2b5e3bc7-5cbd-4173-9
       </a>
     </td>
     <td>
-      <a href="https://e.cash" target="_blank">
-        <img alt="eCash" src="public/ecash.png" height="32px;" />
+      <a href="https://better.avatarprompt.net/" target="_blank">
+        <img alt="BetterPrompt" src="https://www.teach-anything.com/BetterPrompt.png" height="32px;" />
       </a>
     </td>
     <td>
-      <a href="https://neuronadigital.academy/" target="_blank">
-        <img alt="NeuronaDigital" src="public/NeuronaDigital.jpg" height="32px;" />
+      <a href="https://openl.io/" target="_blank">
+        <img alt="OpenL" src="https://www.teach-anything.com/OpenL.png" height="32px;" />
       </a>
     </td>
   </tr>
