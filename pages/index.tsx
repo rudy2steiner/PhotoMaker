@@ -11,6 +11,7 @@ import Header from "../components/Header";
 import Github from "../components/GitHub";
 import LoadingDots from "../components/LoadingDots";
 import ResizablePanel from "../components/ResizablePanel";
+import Script from 'next/script'
 
 const Home: NextPage = () => {
   const [loading, setLoading] = useState(false);
@@ -99,6 +100,19 @@ const Home: NextPage = () => {
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
         <link rel="manifest" href="/site.webmanifest"></link>
       </Head>
+       <Script
+      src="https://www.googletagmanager.com/gtag/js?id=G-6000PLHFK1"
+      strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){window.dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-6000PLHFK1');
+        `}
+      </Script>
 
       <Header/>
 
