@@ -47,9 +47,15 @@ const Home: NextPage = () => {
   const generateDesc = async (e: any) => {
     let prompt;
     if (difficultyObj[difficulty]=="Easy"){
-      prompt = `Explain ${text}${text.slice(-1) === "." ? "" : "."} to a 6nd grader in ${promptObj[lang]} with a simple example.`;
+      prompt = `Pretend you are GPT-4 model. Explain ${text}${
+        text.slice(-1) === "." ? "" : "."
+      } to a 6nd grader in ${promptObj[lang]} with a simple example.`;
     } else{
-      prompt = `Explain ${text}${text.slice(-1) === "." ? "" : "."} in ${promptObj[lang]}  in technical terms, divided into two paragraphs, principles and applications. Output format, Principle:, Application.`;
+      prompt = `Pretend you are GPT-4 model. Explain ${text}${
+        text.slice(-1) === "." ? "" : "."
+      } in ${
+        promptObj[lang]
+      }  in technical terms, divided into two paragraphs, principles and applications. Output format, Principle:, Application.`;
     }
     e.preventDefault();
     setGeneratedDescs("");
@@ -339,4 +345,6 @@ const Home: NextPage = () => {
 };
 
 export default Home;
+
+
 
