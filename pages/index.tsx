@@ -225,7 +225,7 @@ const Home: NextPage = () => {
         </ResizablePanel>
         {error && (
           <p className="text-gray-400 my-5">
-            🚨 Server is busy, please try again later, or you can
+            🚨 Server is busy, please try again later, or you can 
             <a href="https://magickpen.com/" className=" underline hover:text-black">
               Get Pro version
             </a>
@@ -345,6 +345,7 @@ const Home: NextPage = () => {
 };
 
 export default Home;
+
 
 
 
