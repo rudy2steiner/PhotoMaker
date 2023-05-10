@@ -23,7 +23,7 @@ const Home: NextPage = () => {
   const defultDesc = 'How to explain relativity?'
 
   console.log("Streamed response: ", {generatedDescs});
-  let promptObj = {
+  const promptObj = {
     'English': "UK English",
     "中文": "Simplified Chinese",
     "繁體中文": "Traditional Chinese",
@@ -38,11 +38,11 @@ const Home: NextPage = () => {
     "हिंदी" : "Hindi",
     "Indonesian" : "Indonesian"
   }
-  let difficultyObj = {
+  const difficultyObj = {
     'Easy': "Easy",
     'Professional': "Professional",
   }
-  let text = desc||defultDesc
+  const text = desc||defultDesc
   
   const generateDesc = async (e: any) => {
     let prompt;
