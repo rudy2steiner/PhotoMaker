@@ -276,6 +276,18 @@ const Home: NextPage = () => {
             </li>
             <li>
               <a
+                href="https://ask2end.com/"
+                className="flex px-2 items-center justify-center h-14 hover:bg-slate-50 rounded-lg hover:transition-all"
+              >
+                <img
+                  className="h-6 object-contain"
+                  src="/Ask2End.png"
+                  alt="Ask2End - Ask anything, get the ultimate answer!"
+                />
+              </a>
+            </li>
+            <li>
+              <a
                 href="https://better.avatarprompt.net/"
                 className="flex px-2 items-center justify-center h-14 hover:bg-slate-50 rounded-lg hover:transition-all"
               >
@@ -295,18 +307,6 @@ const Home: NextPage = () => {
                   className="h-6 object-contain"
                   src="/OpenL.png"
                   alt="OpenL - Amazing Translator, powered by AI"
-                />
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://talentorg.com.cn/"
-                className="flex px-2 items-center justify-center h-14 hover:bg-slate-50 rounded-lg hover:transition-all"
-              >
-                <img
-                  className="h-6 object-contain"
-                  src="/talentorg.svg"
-                  alt="TalentOrg-雇佣全世界Top1%的人才"
                 />
               </a>
             </li>
@@ -348,6 +348,11 @@ const Home: NextPage = () => {
 };
 
 export default Home;
+
+
+
+
+
 
 
 
