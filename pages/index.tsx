@@ -130,7 +130,7 @@ const Home: NextPage = () => {
           </span>{" "}
           in seconds
         </h1>
-        <p className="text-slate-500 my-5">623,625 answers generated so far.</p>
+        <p className="text-slate-500 my-5">839,046 answers generated so far.</p>
         <div className="max-w-xl w-full">
           <div className="flex mt-4 items-center space-x-3 mb-3">
             <span className="w-7 h-7 rounded-full bg-black text-white text-center leading-7">
