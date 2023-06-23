@@ -293,13 +293,25 @@ const Home: NextPage = () => {
             </li>
             <li>
               <a
-                href="https://ask2end.com/"
+                href="https://reviewgpt.net/"
                 className="flex px-2 items-center justify-center h-14 hover:bg-slate-50 rounded-lg hover:transition-all"
               >
                 <img
                   className="h-6 object-contain"
-                  src="/Ask2End.png"
-                  alt="Ask2End - Ask anything, get the ultimate answer!"
+                  src="/ReviewGPT.png"
+                  alt="ReviewGPT - Make Your Writing Awesome, AI-Powered"
+                />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://openl.io/"
+                className="flex px-2 items-center justify-center h-14 hover:bg-slate-50 rounded-lg hover:transition-all"
+              >
+                <img
+                  className="h-6 object-contain"
+                  src="/OpenL.png"
+                  alt="OpenL - Amazing Translator, powered by AI"
                 />
               </a>
             </li>
@@ -317,16 +329,16 @@ const Home: NextPage = () => {
             </li>
             <li>
               <a
-                href="https://openl.io/"
+                href="https://ask2end.com/"
                 className="flex px-2 items-center justify-center h-14 hover:bg-slate-50 rounded-lg hover:transition-all"
               >
                 <img
                   className="h-6 object-contain"
-                  src="/OpenL.png"
-                  alt="OpenL - Amazing Translator, powered by AI"
+                  src="/Ask2End.png"
+                  alt="Ask2End - Ask anything, get the ultimate answer!"
                 />
               </a>
-            </li>
+            </li> 
             <li>
               <a
                 href="https://sailboatui.com/?ref=teach-anything"
