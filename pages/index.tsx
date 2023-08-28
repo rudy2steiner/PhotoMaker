@@ -281,6 +281,30 @@ const Home: NextPage = () => {
           <ul className="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm">
             <li>
               <a
+                href="https://magickimg.com/"
+                className="flex px-2 items-center justify-center h-14 hover:bg-slate-50 rounded-lg hover:transition-all"
+              >
+                <img
+                  className="h-6 object-contain"
+                  src="/magickimg.png"
+                  alt="magickimg - Boost Your images, Powered by AI"
+                />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://openl.io/"
+                className="flex px-2 items-center justify-center h-14 hover:bg-slate-50 rounded-lg hover:transition-all"
+              >
+                <img
+                  className="h-6 object-contain"
+                  src="/OpenL.png"
+                  alt="OpenL - Amazing Translator, powered by AI"
+                />
+              </a>
+            </li>
+            <li>
+              <a
                 href="https://magickpen.com/"
                 className="flex px-2 items-center justify-center h-14 hover:bg-slate-50 rounded-lg hover:transition-all"
               >
@@ -303,18 +327,7 @@ const Home: NextPage = () => {
                 />
               </a>
             </li>
-            <li>
-              <a
-                href="https://openl.io/"
-                className="flex px-2 items-center justify-center h-14 hover:bg-slate-50 rounded-lg hover:transition-all"
-              >
-                <img
-                  className="h-6 object-contain"
-                  src="/OpenL.png"
-                  alt="OpenL - Amazing Translator, powered by AI"
-                />
-              </a>
-            </li>
+
             <li>
               <a
                 href="https://better.avatarprompt.net/"
@@ -338,7 +351,7 @@ const Home: NextPage = () => {
                   alt="Ask2End - Ask anything, get the ultimate answer!"
                 />
               </a>
-            </li> 
+            </li>
             <li>
               <a
                 href="https://sailboatui.com/?ref=teach-anything"
