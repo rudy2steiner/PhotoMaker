@@ -12,7 +12,12 @@ export const config = {
 const MAX_REQUESTS_PER_DAY = 10;
 
 const handler = async (req: NextRequest): Promise<Response> => {
-  let requestCount = parseInt(req.cookies.get('requestCount') || '0');
+  const requestCountCookie = req.cookies.get('requestCount');
+  let requestCount = requestCountCookie ? parseInt(requestCountCookie) : 0;
+
+  if (isNaN(requestCount)) {
+    requestCount = 0;
+  }
 
   if (requestCount >= MAX_REQUESTS_PER_DAY) {
     return new Response("Rate limit exceeded", { status: 429 });
@@ -38,10 +43,9 @@ const handler = async (req: NextRequest): Promise<Response> => {
 
   const stream = await OpenAIStream(payload);
 
-  // Update request count in cookie
   requestCount += 1;
   const response = new Response(stream);
-  response.cookies.set('requestCount', requestCount.toString(), { maxAge: 86400 }); // Set cookie for 1 day
+  response.headers.append('Set-Cookie', `requestCount=${requestCount}; Max-Age=86400; Path=/; HttpOnly`);
 
   return response;
 };
