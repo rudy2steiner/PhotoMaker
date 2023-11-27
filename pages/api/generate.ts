@@ -9,10 +9,16 @@ export const config = {
   runtime: "edge",
 };
 
+const MAX_REQUESTS_PER_DAY = 10;
+
 const handler = async (req: NextRequest): Promise<Response> => {
-  const { prompt } = (await req.json()) as {
-    prompt?: string;
-  };
+  let requestCount = parseInt(req.cookies.get('requestCount') || '0');
+
+  if (requestCount >= MAX_REQUESTS_PER_DAY) {
+    return new Response("Rate limit exceeded", { status: 429 });
+  }
+
+  const { prompt } = (await req.json()) as { prompt?: string };
 
   if (!prompt) {
     return new Response("No prompt in the request", { status: 400 });
@@ -31,7 +37,13 @@ const handler = async (req: NextRequest): Promise<Response> => {
   };
 
   const stream = await OpenAIStream(payload);
-  return new Response(stream);
+
+  // Update request count in cookie
+  requestCount += 1;
+  const response = new Response(stream);
+  response.cookies.set('requestCount', requestCount.toString(), { maxAge: 86400 }); // Set cookie for 1 day
+
+  return response;
 };
 
 export default handler;
