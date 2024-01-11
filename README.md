@@ -1,6 +1,6 @@
-# [Teach Anything](https://www.teach-anything.com/)
+# [Replace Anything](https://www.replace-anything.com/)
 
-Teach you anything in seconds use AI.
+Replace you anything in seconds use AI.
 
 https://user-images.githubusercontent.com/2337506/216798367-2b5e3bc7-5cbd-4173-9ea7-0e1e85ea87dc.mov
 
@@ -10,28 +10,28 @@ https://user-images.githubusercontent.com/2337506/216798367-2b5e3bc7-5cbd-4173-9
   <tr>
     <td>
       <a href="https://magickpen.com/" target="_blank">
-        <img alt="MagickPen" src="https://www.teach-anything.com/magickpen.svg" height="32px;" />
+        <img alt="MagickPen" src="https://www.replace-anything.com/magickpen.svg" height="32px;" />
       </a>
     </td>
     <td>
       <a href="https://better.avatarprompt.net/" target="_blank">
-        <img alt="BetterPrompt" src="https://www.teach-anything.com/BetterPrompt.png" height="32px;" />
+        <img alt="BetterPrompt" src="https://www.replace-anything.com/BetterPrompt.png" height="32px;" />
       </a>
     </td>
     <td>
       <a href="https://openl.io/" target="_blank">
-        <img alt="OpenL" src="https://www.teach-anything.com/OpenL.png" height="32px;" />
+        <img alt="OpenL" src="https://www.replace-anything.com/OpenL.png" height="32px;" />
       </a>
     </td>
   </tr>
   <tr>
     <td>
       <a href="https://talentorg.com.cn/" target="_blank">
-        <img alt="Talentorg" src="https://www.teach-anything.com/talentorg.svg" height="32px;" />
+        <img alt="Talentorg" src="https://www.replace-anything.com/talentorg.svg" height="32px;" />
       </a>
     </td>
     <td>
-      <a href="https://sailboatui.com/?ref=teach-anything" target="_blank">
+      <a href="https://sailboatui.com/?ref=replace-anything" target="_blank">
         <img alt="SailboatUI" src="public/sailboatui.svg" height="32px;" />
       </a>
     </td>
@@ -42,6 +42,7 @@ https://user-images.githubusercontent.com/2337506/216798367-2b5e3bc7-5cbd-4173-9
 </table>
 
 ## Language support
+
 `English`, `Simplified Chinese`, `Traditional Chinese`, `Japanese`, `Italian`, `German`, `Spanish`,`French`,`Dutch` ,`Korean`,`Khmer`, `Hindi`
 
 PR welcome
@@ -70,4 +71,4 @@ npm run dev
 
 Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/lvwzhen/teach-anything&env=OPENAI_API_KEY&project-name=teach-anything&repo-name=teach-anything)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/lvwzhen/replace-anything&env=OPENAI_API_KEY&project-name=replace-anything&repo-name=replace-anything)
