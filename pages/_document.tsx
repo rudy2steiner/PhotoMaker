@@ -25,13 +25,13 @@ class MyDocument extends Document {
           />
           <meta
             property="og:image"
-            content="https://www.replace-anything.com/og-image.png"
+            content="https://www.replace-anything.fun/og-image.png"
           />
           <meta name="twitter:card" content="summary_large_image" />
           <meta name="twitter:site" content="@lvwzhen" />
           <meta name="twitter:title" content="Replace Anything" />
           <meta name="twitter:description" content="Replace you anything in seconds use AI" />
-          <meta name="twitter:image" content="https://www.replace-anything.com/og-image.png" />
+          <meta name="twitter:image" content="https://www.replace-anything.fun/og-image.png" />
           {/* <Script
              id="Adsense-id"
              data-ad-client="ca-pub-9181833886721130"
