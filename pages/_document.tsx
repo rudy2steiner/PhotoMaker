@@ -28,16 +28,24 @@ class MyDocument extends Document {
             content="https://www.replace-anything.fun/og-image.png"
           />
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:site" content="@lvwzhen" />
+          <meta name="twitter:site" content="@JOJOhanbo" />
           <meta name="twitter:title" content="Replace Anything" />
           <meta name="twitter:description" content="Replace you anything in seconds use AI" />
           <meta name="twitter:image" content="https://www.replace-anything.fun/og-image.png" />
-          {/* <Script
-             id="Adsense-id"
-             data-ad-client="ca-pub-9181833886721130"
-             strategy="beforeInteractive"
-             src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-          /> */}
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-FKCCWR6NB5"></script>
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-FKCCWR6NB5');
+          `,
+            }}
+          />
+          <script
+            async src="https://analytics.azhubaby.com/script.js"
+            data-website-id="c64ce814-2df1-4637-a53b-e07564f1b746"></script>
         </Head>
         <body>
           <Main />
