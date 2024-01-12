@@ -16,83 +16,8 @@ import Script from "next/script";
 const Home: NextPage = () => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(false);
-  const [desc, setDesc] = useState("");
-  const [lang, setLang] = useState<VibeType>("English");
-  const [difficulty, setDifficulty] = useState<VibeType2>("Easy");
   const [generatedDescs, setGeneratedDescs] = useState<string>("");
-  const defultDesc = "How to explain relativity?";
 
-  console.log("Streamed response: ", { generatedDescs });
-  const promptObj = {
-    "English": "UK English",
-    "中文": "Simplified Chinese",
-    "繁體中文": "Traditional Chinese",
-    "日本語": "Japanese",
-    "Italiano": "Italian",
-    "Deutsch": "German",
-    "Español": "Spanish",
-    "Français": "French",
-    "Nederlands": "Dutch",
-    "한국어": "Korean",
-    "ភាសាខ្មែរ": "Khmer",
-    "हिंदी": "Hindi",
-    "Indonesian": "Indonesian",
-  };
-  const difficultyObj = {
-    "Easy": "Easy",
-    "Professional": "Professional",
-  };
-  const text = desc || defultDesc;
-
-  const generateDesc = async (e: any) => {
-    let prompt;
-    if (difficultyObj[difficulty] == "Easy") {
-      prompt = `Pretend you are GPT-4 model. Explain ${text}${text.slice(-1) === "." ? "" : "."
-        } to a 6nd grader in ${promptObj[lang]} with a simple example.`;
-    } else {
-      prompt = `Pretend you are GPT-4 model. Explain ${text}${text.slice(-1) === "." ? "" : "."
-        } in ${promptObj[lang]
-        }  in technical terms, divided into two paragraphs, principles and applications. Output format, Principle:, Application.`;
-    }
-    e.preventDefault();
-    setGeneratedDescs("");
-    setLoading(true);
-    const response = await fetch("/api/generate", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        prompt,
-      }),
-    });
-    console.log("Edge function returned.");
-
-    if (!response.ok) {
-      setError(true);
-      setLoading(false);
-      throw new Error(response.statusText);
-    }
-
-    // This data is a ReadableStream
-    const data = response.body;
-    if (!data) {
-      return;
-    }
-
-    const reader = data.getReader();
-    const decoder = new TextDecoder();
-    let done = false;
-
-    while (!done) {
-      const { value, done: doneReading } = await reader.read();
-      done = doneReading;
-      const chunkValue = decoder.decode(value);
-      setGeneratedDescs((prev) => prev + chunkValue);
-    }
-
-    setLoading(false);
-  };
 
   return (
     <div className="flex mx-auto flex-col items-center justify-center py-2 min-h-screen">
