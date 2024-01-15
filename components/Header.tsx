@@ -14,7 +14,7 @@ export default function Header() {
         <div className="flex flex-wrap justify-center gap-3 items-center">
           <a
             className="flex max-w-fit items-center justify-center space-x-2 rounded-md bg-white text-sm text-gray-600 shadow-sm transition-colors hover:opacity-80"
-            href="https://www.buymeacoffee.com/johanazhu"
+            href="https://www.buymeacoffee.com"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -22,7 +22,7 @@ export default function Header() {
           </a>
           <a
             className="flex max-w-fit items-center justify-center space-x-2 rounded-md border border-gray-300 bg-white px-4 py-2 text-sm text-gray-600 shadow-sm transition-colors hover:bg-gray-100"
-            href="https://github.com/johanazhu/replace-anything"
+            href="https://github.com/rudy2steiner/replaceany"
             target="_blank"
             rel="noopener noreferrer"
           >
