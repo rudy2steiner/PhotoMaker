@@ -87,7 +87,7 @@ const Home: NextPage = () => {
             .
           </p>
         )}
-
+        <img src="https://github.com/TencentARC/PhotoMaker/assets/21050959/e72cbf4d-938f-417d-b308-55e76a4bc5c8" alt="photomaker_demo_fast">
         <iframe
           src="https://tencentarc-photomaker.hf.space"
           style={{ overflow: 'hidden', width: '100%', height: '1337px' }} />
