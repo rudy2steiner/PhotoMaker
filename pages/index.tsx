@@ -95,7 +95,7 @@ const Home: NextPage = () => {
           </p>
         )}
         <iframe
-          src="https://modelscope-replaceanything.hf.space"
+          src="https://tencentarc-photomaker.hf.space"
           style={{ overflow: 'hidden', width: '100%', height: '1337px' }} />
       </main>
       <Footer />
