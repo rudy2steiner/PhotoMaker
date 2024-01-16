@@ -22,7 +22,7 @@ const Home: NextPage = () => {
   return (
     <div className="flex mx-auto flex-col items-center justify-center py-2 min-h-screen">
       <Head>
-        <title>Replace Anything</title>
+        <title>PhotoMaker</title>
         <link rel="apple-touch-icon" sizes="180x180" href="/maker.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/maker.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/maker.png" />
