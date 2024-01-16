@@ -23,9 +23,9 @@ const Home: NextPage = () => {
     <div className="flex mx-auto flex-col items-center justify-center py-2 min-h-screen">
       <Head>
         <title>Replace Anything</title>
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/maker.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/maker.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/maker.png" />
         <link rel="manifest" href="/site.webmanifest"></link>
       </Head>
       {/* <Script
@@ -45,13 +45,13 @@ const Home: NextPage = () => {
       <Header />
 
       <main className="flex flex-1 w-full flex-col items-center justify-center text-center mt-2 sm:my-16">
-        <h1 className="sm:text-4xl text-2xl max-w-1xl font-bold text-slate-900">
-          Replace you{" "}
-          <span className="bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 bg-clip-text text-transparent">
-            Anything
-          </span>{" "}
-          in seconds
-        </h1>
+//         <h1 className="sm:text-4xl text-2xl max-w-1xl font-bold text-slate-900">
+//           Replace you{" "}
+//           <span className="bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 bg-clip-text text-transparent">
+//             Anything
+//           </span>{" "}
+//           in seconds
+//         </h1>
         <Toaster position="top-center" reverseOrder={false} toastOptions={{ duration: 2000 }} />
         <hr className="h-px bg-gray-700 border-1 dark:bg-gray-700" />
         <ResizablePanel>
