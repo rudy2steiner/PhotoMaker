@@ -69,7 +69,7 @@ const Home: NextPage = () => {
                     >
                       <p>{generatedDescs}</p>
                       <blockquote className="mt-4 text-sm border-l-4 border-slate-300 pl-3 text-slate-400">
-                        replace-anything.com
+                        photo-maker.co
                       </blockquote>
                     </div>
                   </div>

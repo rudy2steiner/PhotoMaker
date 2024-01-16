@@ -29,8 +29,8 @@ class MyDocument extends Document {
           />
           <meta name="twitter:card" content="summary_large_image" />
           <meta name="twitter:site" content="@JOJOhanbo" />
-          <meta name="twitter:title" content="Replace Anything" />
-          <meta name="twitter:description" content="Replace you anything in seconds use AI" />
+          <meta name="twitter:title" content="PhotoMaker" />
+          <meta name="twitter:description" content="Customizing Realistic Human Photos via Stacked ID Embedding" />
           <meta name="twitter:image" content="https://www.replaceany.co/og-image.png" />
 {/*           <script async src="https://www.googletagmanager.com/gtag/js?id=G-FKCCWR6NB5"></script> */}
 {/*           <script */}
