@@ -37,9 +37,9 @@ export default function Footer() {
           </svg>
         </Link> */}
         <Link
-          href="https://github.com/johanazhu/teach-anything"
+          href="https://github.com/rudy2steiner/PhotoMaker"
           className="group"
-          aria-label="johanazhu on GitHub"
+          aria-label="rudy2steiner on GitHub"
         >
           <svg
             aria-hidden="true"
