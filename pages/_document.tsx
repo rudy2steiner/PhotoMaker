@@ -6,23 +6,23 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-          <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-          <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+          <link rel="apple-touch-icon" sizes="180x180" href="/maker.png" />
+          <link rel="icon" type="image/png" sizes="32x32" href="/maker.png" />
+          <link rel="icon" type="image/png" sizes="16x16" href="/maker.png" />
           <link rel="manifest" href="/site.webmanifest"></link>
           <meta
             name="description"
-            content="Replace you anything in seconds use AI."
+            content="PhotoMaker."
           />
           <meta
             property="og:description"
-            content="Replace you anything in seconds use AI."
+            content="Customizing Realistic Human Photos via Stacked ID Embedding"
           />
-          <meta property="og:title" content="Replace Anything" />
-          <meta
-            name="twitter:description"
-            content="Replace you anything in seconds use AI."
-          />
+          <meta property="og:title" content="PhotoMaker" />
+{/*           <meta */}
+{/*             name="twitter:description" */}
+{/*             content="PhotoMaker: Customizing Realistic Human Photos via Stacked ID Embedding" */}
+{/*           /> */}
           <meta
             property="og:image"
             content="https://www.replaceany.co/og-image.png"
