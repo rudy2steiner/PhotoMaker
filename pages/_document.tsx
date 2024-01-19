@@ -12,11 +12,11 @@ class MyDocument extends Document {
           <link rel="manifest" href="/site.webmanifest"></link>
           <meta
             name="description"
-            content="Customizing Realistic Human Photos via Stacked ID Embedding"
+            content="Customizing Realistic Human Photos via Stacked ID Embedding."
           />
           <meta
             property="og:description"
-            content="Customizing Realistic Human Photos via Stacked ID Embedding"
+            content="Customizing Realistic Human Photos via Stacked ID Embedding."
           />
           <meta property="og:title" content="PhotoMaker" />
 {/*           <meta */}
