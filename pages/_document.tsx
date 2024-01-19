@@ -6,7 +6,7 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          <link rel="apple-touch-icon" sizes="180x180" href="/maker.png" />
+          <link rel="apple-touch-icon" sizes="180x180" href="/favicon.ico" />
           <link rel="icon" type="image/png" sizes="32x32" href="/maker.png" />
           <link rel="icon" type="image/png" sizes="16x16" href="/maker.png" />
           <link rel="manifest" href="/site.webmanifest"></link>
