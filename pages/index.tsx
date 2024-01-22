@@ -87,7 +87,7 @@ const Home: NextPage = () => {
             .
           </p>
         )}
-        <h1> PhotoMaker - Customizing Realistic Human Photos via Stacked ID Embedding </>
+        <h1> PhotoMaker - Customizing Realistic Human Photos via Stacked ID Embedding <h1/>
         <img src="https://github.com/TencentARC/PhotoMaker/assets/21050959/e72cbf4d-938f-417d-b308-55e76a4bc5c8" alt="photo maker " />
         <iframe
           src="https://tencentarc-photomaker.hf.space"
