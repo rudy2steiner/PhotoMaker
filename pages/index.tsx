@@ -87,7 +87,7 @@ const Home: NextPage = () => {
             .
           </p>
         )}
-        <h1> PhotoMaker - Customizing Realistic Human Photos via Stacked ID Embedding <h1/>
+        <h1> PhotoMaker - Customizing Realistic Human Photos via Stacked ID Embedding </h1>
         <img src="https://github.com/TencentARC/PhotoMaker/assets/21050959/e72cbf4d-938f-417d-b308-55e76a4bc5c8" alt="photo maker " />
         <iframe
           src="https://tencentarc-photomaker.hf.space"
@@ -100,8 +100,8 @@ const Home: NextPage = () => {
         <p>
         <strong>Q:What are the Key Components of Stacked ID Embedding?</strong>
         </p>
-        <p>A:Stacked ID Embedding comprises several key components:
-             Encoder Network: The encoder network extracts latent representations from the input images using a deep convolutional neural network (CNN).
+        <p>A:Stacked ID Embedding comprises several key components:</p>
+             <p>Encoder Network: The encoder network extracts latent representations from the input images using a deep convolutional neural network (CNN).</p>
 
              Stacked Embedding Module: The stacked embedding module consists of multiple embedding layers. Each layer learns to embed the identity information into the latent representations, allowing for fine-grained control over the generated image's appearance and attributes.
 
