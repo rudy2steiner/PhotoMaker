@@ -94,7 +94,7 @@ const Home: NextPage = () => {
           style={{ overflow: 'hidden', width: '100%', height: '1337px' }} />
         <div style={{marginTop:'50px'}}>
             <h2 style={{textAlign: 'center'}}>PhotoMaker Q &amp;A</h2>
-            <p style={{textAlign:left}>
+            <p style={{textAlign:'left'}>
             <strong>Q:What is Stacked ID Embedding for Customizing Realistic Human Photos?</strong>
             </p>
             <p style={{marginTop:'20px'}}>A:Stacked ID Embedding is a novel technique for personalizing realistic human photographs. It leverages deep learning and generative adversarial networks (GANs) to generate high-fidelity photorealistic images of individuals based on a limited number of input images. This approach employs a stacked embedding architecture, where the input images are encoded into latent representations and then combined with identity embeddings to control the attributes and appearance of the generated images.</p>
