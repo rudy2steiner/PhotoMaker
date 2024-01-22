@@ -117,7 +117,7 @@ const Home: NextPage = () => {
             <p style={{marginTop:'20px'}}>
                 <strong>Q:What are Some Real-World Applications of Stacked ID Embedding?</strong>
             </p>
-            <p>A:Stacked ID Embedding has potential applications in various domains:
+            <p>A:Stacked ID Embedding has potential applications in various domains:</p>
             <p>1.<strong>Personalized Avatars</strong>: It can be employed to create personalized avatars for gaming, social media platforms, and virtual reality environments.</p>
             <p>2.<strong>Virtual Try-Ons</strong>: The technique can facilitate virtual try-ons of clothing and accessories, enabling users to visualize how different items would look on them.</p>
             <p>3.<strong>Photo Editing</strong>: Stacked ID Embedding can be integrated into photo editing software, allowing users to enhance and customize their portraits and selfies.</p>
