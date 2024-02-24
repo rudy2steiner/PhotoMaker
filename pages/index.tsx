@@ -87,44 +87,10 @@ const Home: NextPage = () => {
             .
           </p>
         )}
-        <h1> PhotoMaker - Customizing Realistic Human Photos via Stacked ID Embedding </h1>
-        <img src="https://github.com/TencentARC/PhotoMaker/assets/21050959/e72cbf4d-938f-417d-b308-55e76a4bc5c8" alt="photo maker " />
+        <img src="https://github.com/TencentARC/PhotoMaker/assets/21050959/e72cbf4d-938f-417d-b308-55e76a4bc5c8" alt="photomaker_demo_fast" />
         <iframe
           src="https://tencentarc-photomaker.hf.space"
           style={{ overflow: 'hidden', width: '100%', height: '1337px' }} />
-        <div style={{marginTop:'50px'}}>
-            <h2 style={{textAlign: 'center'}}>PhotoMaker Q &amp;A</h2>
-            <p style={{textAlign:'left'}}>
-            <strong>Q:What is Stacked ID Embedding for Customizing Realistic Human Photos?</strong>
-            </p>
-            <p style={{marginTop:'20px',textAlign:'left'}}>A:Stacked ID Embedding is a novel technique for personalizing realistic human photographs. It leverages deep learning and generative adversarial networks (GANs) to generate high-fidelity photorealistic images of individuals based on a limited number of input images. This approach employs a stacked embedding architecture, where the input images are encoded into latent representations and then combined with identity embeddings to control the attributes and appearance of the generated images.</p>
-            <p style={{marginTop:'20px'}}>
-                <strong>Q:What are the Key Components of Stacked ID Embedding?</strong>
-            </p>
-            <p style={{marginTop:'20px'}}>A:Stacked ID Embedding comprises several key components:</p>
-            <p>1.<strong>Encoder Network</strong>: The encoder network extracts latent representations from the input images using a deep convolutional neural network (CNN).</p>
-            <p>2.<strong>Stacked Embedding Module</strong>: The stacked embedding module consists of multiple embedding layers. Each layer learns to embed the identity information into the latent representations, allowing for fine-grained control over the generated image's appearance and attributes.</p>
-            <p>3.<strong>Generator Network</strong>: The generator network utilizes the latent representations and the embedded identity information to synthesize new photorealistic human images.</p>
-            <p>4.<strong>Discriminator Network</strong>: The discriminator network distinguishes between real images and generated images, providing feedback to the generator network to improve the realism and quality of the generated photos..</p>
-            <p style={{marginTop:'20px'}}>
-                <strong>Q:What are the Advantages of Stacked ID Embedding for Photo Customization?</strong>
-            </p>
-            <p>A:Stacked ID Embedding offers several advantages for customizing photorealistic human photos:</p>
-            <p>1.<strong>High Fidelity</strong>: The generated images exhibit remarkable photorealism, capturing fine details, textures, and subtle variations in facial expressions and poses.</p>
-            <p>2.<strong>Personalization</strong>: The approach enables extensive personalization by allowing users to control various attributes such as hair color, eye color, facial shape, and expressions, resulting in images that accurately reflect the user's desired appearance.</p>
-            <p>3.<strong>Controllable Variation</strong>: The stacked embedding module enables fine-grained control over the attributes and appearance of the generated images, allowing for seamless blending and morphing between different input images.</p>
-            <p>4.<strong>Diverse Applications</strong>: Stacked ID Embedding can be utilized in a wide range of applications, including photo editing, fashion design, entertainment, and social media.</p>
-            <p style={{marginTop:'20px'}}>
-                <strong>Q:What are Some Real-World Applications of Stacked ID Embedding?</strong>
-            </p>
-            <p>A:Stacked ID Embedding has potential applications in various domains:</p>
-            <p>1.<strong>Personalized Avatars</strong>: It can be employed to create personalized avatars for gaming, social media platforms, and virtual reality environments.</p>
-            <p>2.<strong>Virtual Try-Ons</strong>: The technique can facilitate virtual try-ons of clothing and accessories, enabling users to visualize how different items would look on them.</p>
-            <p>3.<strong>Photo Editing</strong>: Stacked ID Embedding can be integrated into photo editing software, allowing users to enhance and customize their portraits and selfies.</p>
-            <p>4.<strong>Fashion Design</strong>: The approach can assist fashion designers in creating realistic product visualizations, showcasing clothing and accessories on virtual models.</p>
-            <p>5.<strong>Entertainment</strong>: It can be utilized in the entertainment industry to generate realistic digital doubles for actors and characters in films, television shows, and video games.</p>
-
-        </div>
       </main>
       <Footer />
     </div>
