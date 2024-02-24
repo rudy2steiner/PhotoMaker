@@ -28,8 +28,8 @@ const Home: NextPage = () => {
         <link rel="icon" type="image/png" sizes="16x16" href="/maker.png" />
         <link rel="manifest" href="/site.webmanifest"></link>
       </Head>
-      { <Script
-        src="https://www.googletagmanager.com/gtag/js?id=G-5YS9DK365X"
+      {/* <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-6000PLHFK1"
         strategy="afterInteractive"
       />
       <Script id="google-analytics" strategy="afterInteractive">
@@ -38,9 +38,9 @@ const Home: NextPage = () => {
           function gtag(){window.dataLayer.push(arguments);}
           gtag('js', new Date());
 
-          gtag('config', 'G-5YS9DK365X');
+          gtag('config', 'G-6000PLHFK1');
         `}
-      </Script> }
+      </Script> */}
 
       <Header />
 
