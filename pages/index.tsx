@@ -28,8 +28,8 @@ const Home: NextPage = () => {
         <link rel="icon" type="image/png" sizes="16x16" href="/maker.png" />
         <link rel="manifest" href="/site.webmanifest"></link>
       </Head>
-      {/* <Script
-        src="https://www.googletagmanager.com/gtag/js?id=G-6000PLHFK1"
+      { <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-5YS9DK365X"
         strategy="afterInteractive"
       />
       <Script id="google-analytics" strategy="afterInteractive">
@@ -38,9 +38,9 @@ const Home: NextPage = () => {
           function gtag(){window.dataLayer.push(arguments);}
           gtag('js', new Date());
 
-          gtag('config', 'G-6000PLHFK1');
+          gtag('config', 'G-5YS9DK365X');
         `}
-      </Script> */}
+      </Script> }
 
       <Header />
 
@@ -97,7 +97,7 @@ const Home: NextPage = () => {
             <p style={{textAlign:'left'}}>
             <strong>Q:What is Stacked ID Embedding for Customizing Realistic Human Photos?</strong>
             </p>
-            <p style={{marginTop:'20px'}}>A:Stacked ID Embedding is a novel technique for personalizing realistic human photographs. It leverages deep learning and generative adversarial networks (GANs) to generate high-fidelity photorealistic images of individuals based on a limited number of input images. This approach employs a stacked embedding architecture, where the input images are encoded into latent representations and then combined with identity embeddings to control the attributes and appearance of the generated images.</p>
+            <p style={{marginTop:'20px',textAlign:'left'}}>A:Stacked ID Embedding is a novel technique for personalizing realistic human photographs. It leverages deep learning and generative adversarial networks (GANs) to generate high-fidelity photorealistic images of individuals based on a limited number of input images. This approach employs a stacked embedding architecture, where the input images are encoded into latent representations and then combined with identity embeddings to control the attributes and appearance of the generated images.</p>
             <p style={{marginTop:'20px'}}>
                 <strong>Q:What are the Key Components of Stacked ID Embedding?</strong>
             </p>
