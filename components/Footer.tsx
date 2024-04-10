@@ -22,6 +22,13 @@ export default function Footer() {
         >
           Next.js
         </a>
+        <a
+          href="https://photomaker.co/"
+          target="_blank"
+          className="font-bold hover:underline transition underline-offset-2"
+        >
+          ,PhotoMaker
+        </a>
       </div>
       <div className="flex space-x-4 pb-4 sm:pb-0">
         {/* <Link
@@ -41,6 +48,7 @@ export default function Footer() {
           className="group"
           aria-label="rudy2steiner on GitHub"
         >
+
           <svg
             aria-hidden="true"
             className="h-6 w-6 fill-slate-500 group-hover:fill-slate-700"
