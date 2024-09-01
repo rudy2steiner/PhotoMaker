@@ -23,6 +23,7 @@ const Home: NextPage = () => {
     <div className="flex mx-auto flex-col items-center justify-center py-2 min-h-screen">
       <Head>
         <title>Customizing Realistic Human Photos - PhotoMaker</title>
+        <meta name='keywords' content='photomaker v2,photomaker style,photomaker,photomakers,photo maker v2,photo maker customizing realistic,photomaker2,photomaker customizing realistic human photos,stacked id embedding, photo maker,image generator' />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/maker.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/maker.png" />
