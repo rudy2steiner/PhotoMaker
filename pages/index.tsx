@@ -89,8 +89,8 @@ const Home: NextPage = () => {
           </p>
         )}
         <img src="https://github.com/TencentARC/PhotoMaker/assets/21050959/e72cbf4d-938f-417d-b308-55e76a4bc5c8" alt="photomaker_demo_fast" />
-        <h1 align="center" className="text-xl mb-5 mt-5 font-bold">How to use PhotoMaker V2</h1>
-        <video controls autoPlay muted name="media" >
+        <h1  className="mx-auto text-xl mb-5 mt-5 font-bold">How to use PhotoMaker V2</h1>
+        <video controls autoPlay muted >
           <source src="https://photo-maker.github.io/assets/demo_pm_v2_full.mp4" type="video/mp4" >
           </source>
           Your browser does not support the video tag.
