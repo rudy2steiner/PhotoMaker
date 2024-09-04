@@ -29,6 +29,13 @@ export default function Footer() {
         >
           ,PhotoMaker
         </a>
+        <a
+          href="https://www.svgtextmaker.com/"
+          target="_blank"
+          className="font-bold hover:underline transition underline-offset-2"
+        >
+          ,Svg Text Maker
+        </a>
       </div>
       <div className="flex space-x-4 pb-4 sm:pb-0">
         {/* <Link
