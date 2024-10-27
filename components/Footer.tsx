@@ -29,6 +29,27 @@ export default function Footer() {
         >
           ,PhotoMaker
         </a>
+        <a
+          href="https://www.svgtextmaker.com/"
+          target="_blank"
+          className="font-bold hover:underline transition underline-offset-2"
+        >
+          ,Svg Text Maker
+        </a>
+        <a
+          href="https://www.imagemakerai.co/"
+          target="_blank"
+          className="font-bold hover:underline transition underline-offset-2"
+        >
+          ,Image Maker Ai
+        </a>
+        <a
+          href="https://www.svgviewer.co/"
+          target="_blank"
+          className="font-bold hover:underline transition underline-offset-2"
+        >
+          ,SVG Viewer
+        </a>
       </div>
       <div className="flex space-x-4 pb-4 sm:pb-0">
         {/* <Link
@@ -44,11 +65,23 @@ export default function Footer() {
           </svg>
         </Link> */}
         <Link
+          href="https://jsonhome.com"
+          className="group"
+          aria-label="json edit and format tools"
+        >
+          <svg
+            aria-hidden="true"
+            className="h-6 w-6 fill-slate-500 group-hover:fill-slate-700"
+          >
+          <path fill="#f05011" d="M5,3H7V5H5v5a2,2,0,0,1-2,2,2,2,0,0,1,2,2v5H7v2H5c-1.07-.27-2-.9-2-2V15a2,2,0,0,0-2-2H0V11H1A2,2,0,0,0,3,9V5A2,2,0,0,1,5,3M19,3a2,2,0,0,1,2,2V9a2,2,0,0,0,2,2h1v2H23a2,2,0,0,0-2,2v4a2,2,0,0,1-2,2H17V19h2V14a2,2,0,0,1,2-2,2,2,0,0,1-2-2V5H17V3h2M12,15a1,1,0,1,1-1,1,1,1,0,0,1,1-1M8,15a1,1,0,1,1-1,1,1,1,0,0,1,1-1m8,0a1,1,0,1,1-1,1A1,1,0,0,1,16,15Z"/>
+
+          </svg>
+        </Link>
+        <Link
           href="https://github.com/rudy2steiner/PhotoMaker"
           className="group"
           aria-label="rudy2steiner on GitHub"
         >
-
           <svg
             aria-hidden="true"
             className="h-6 w-6 fill-slate-500 group-hover:fill-slate-700"
