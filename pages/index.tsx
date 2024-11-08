@@ -13,6 +13,14 @@ import LoadingDots from "../components/LoadingDots";
 import ResizablePanel from "../components/ResizablePanel";
 import Script from "next/script";
 
+declare global {
+  namespace JSX {
+    interface IntrinsicElements {
+      'gradio-app': any;
+    }
+  }
+}
+
 const Home: NextPage = () => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(false);
@@ -23,6 +31,7 @@ const Home: NextPage = () => {
     <div className="flex mx-auto flex-col items-center justify-center py-2 min-h-screen">
       <Head>
         <title>Customizing Realistic Human Photos - PhotoMaker</title>
+        <meta name='keywords' content='photomaker v2, photomaker style, photomaker, photomakers, photo maker v2, photo maker customizing realistic, photomaker2, photomaker customizing realistic human photos,stacked id embedding, photo maker, image generator' />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/maker.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/maker.png" />
@@ -41,7 +50,10 @@ const Home: NextPage = () => {
           gtag('config', 'G-5YS9DK365X');
         `}
       </Script>
-
+      <Script
+            type="module"
+            src="https://gradio.s3-us-west-2.amazonaws.com/5.5.0/gradio.js"
+      ></Script>
       <Header />
 
       <main className="flex flex-1 w-full flex-col items-center justify-center text-center mt-2 sm:my-16">
@@ -88,9 +100,18 @@ const Home: NextPage = () => {
           </p>
         )}
         <img src="https://github.com/TencentARC/PhotoMaker/assets/21050959/e72cbf4d-938f-417d-b308-55e76a4bc5c8" alt="photomaker_demo_fast" />
-        <iframe
-          src="https://tencentarc-photomaker.hf.space"
-          style={{ overflow: 'hidden', width: '100%', height: '1337px' }} />
+        <h1  className="mx-auto text-xl mb-5 mt-5 font-bold">How to use PhotoMaker V2</h1>
+        <video controls autoPlay muted >
+          <source src="https://photo-maker.github.io/assets/demo_pm_v2_full.mp4" type="video/mp4" >
+          </source>
+          Your browser does not support the video tag.
+        </video>
+        <h1  className="mx-auto text-xl text-left mb-5 mt-5 font-bold">Get Started to Using PhotoMaker</h1>
+        <div className="mx-auto max-w-6xl h-1337px items-center">
+           <gradio-app  src="https://tencentarc-photomaker-v2.hf.space"
+            border="0" eager="true" control_page_title="true"
+            initial_height="300px" ></gradio-app>
+        </div>
       </main>
       <Footer />
     </div>
