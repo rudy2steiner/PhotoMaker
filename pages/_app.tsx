@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <>
       <Component {...pageProps} />
       <Analytics />
-      <script defer data-domain="photomaker.co" src="https://plausible.io/js/script.js"></script>
+
     </>
   );
 }

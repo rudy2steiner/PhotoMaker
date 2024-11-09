@@ -47,7 +47,7 @@ class MyDocument extends Document {
 {/*           <script */}
 {/*             async src="https://analytics.azhubaby.com/script.js" */}
 {/*             data-website-id="c64ce814-2df1-4637-a53b-e07564f1b746"></script> */}
-
+           <script defer data-domain="photomaker.co" src="https://plausible.io/js/script.js"></script>
         </Head>
         <body>
           <Main />
