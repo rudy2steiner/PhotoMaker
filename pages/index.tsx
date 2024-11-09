@@ -109,7 +109,7 @@ const Home: NextPage = () => {
         <h1  className="mx-auto text-xl text-left mb-5 mt-5 font-bold">Get Started to Using PhotoMaker</h1>
         <div className="mx-auto max-w-6xl h-1337px items-center">
            <gradio-app  src="https://tencentarc-photomaker-v2.hf.space"
-            border="0" eager="true" control_page_title="true"
+            border="0" eager="true" control_page_title="false"
             initial_height="300px" ></gradio-app>
         </div>
       </main>
