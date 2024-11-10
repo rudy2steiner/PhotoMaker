@@ -52,7 +52,6 @@ const Home: NextPage = () => {
       </Script>
       <Script
             type="module"
-            defer="true"
             src="https://gradio.s3-us-west-2.amazonaws.com/5.5.0/assets/index-Ya43XIXp.js"
       ></Script>
       <Header />
