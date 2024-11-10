@@ -101,13 +101,13 @@ const Home: NextPage = () => {
         )}
         <img src="/images/rf.gif" />
         <h1  className="mx-auto text-xl mb-5 mt-5 font-bold">How to use PhotoMaker V2</h1>
-        <video preload="none" controls  muted width="1024" height="800">
+        <video preload="none" controls  muted width="1280" height="800">
           <source src="https://photo-maker.github.io/assets/demo_pm_v2_full.mp4" type="video/mp4" >
           </source>
           Your browser does not support the video tag.
         </video>
         <h1  className="mx-auto text-xl text-left mb-5 mt-10 font-bold">Get Started to Using PhotoMaker</h1>
-        <div className="mx-auto max-w-full h-1337px mr-40 ">
+        <div className="mx-auto max-w-full h-1337px ml-50">
            <gradio-app  src="https://tencentarc-photomaker-v2.hf.space"
             border="0" eager="true" control_page_title="false"
             initial_height="300px" ></gradio-app>
