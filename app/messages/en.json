@@ -1,0 +1,39 @@
+{
+  "common": {
+    "title": "Photo Maker",
+    "upload": "Upload Photos",
+    "uploadUrl": "Upload from URL",
+    "add": "Add",
+    "generate": "Generate",
+    "options": "Options",
+    "examples": "Examples",
+    "generated": "Generated Images",
+    "useExample": "Use This Example",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "exampleLoaded": "Example settings loaded. Click Generate to create new photos.",
+    "exampleError": "Failed to load example",
+    "table": {
+      "photos": "Photos",
+      "prompt": "Prompt",
+      "style": "Style",
+      "negativePrompt": "Negative Prompt",
+      "actions": "Actions"
+    }
+  },
+  "form": {
+    "prompt": "Prompt",
+    "negativePrompt": "Negative Prompt",
+    "aspectRatio": "Aspect Ratio",
+    "style": "Style",
+    "numSteps": "Number of Steps",
+    "styleStrength": "Style Strength",
+    "numOutputs": "Number of Outputs",
+    "guidanceScale": "Guidance Scale",
+    "seed": "Seed",
+    "useDoodle": "Use Doodle",
+    "adapterScale": "Adapter Scale",
+    "adapterFactor": "Adapter Factor"
+  }
+}

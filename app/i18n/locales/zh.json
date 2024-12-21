@@ -1,0 +1,28 @@
+{
+  "common": {
+    "title": "照片生成器",
+    "upload": "上传照片",
+    "generate": "生成",
+    "options": "选项",
+    "examples": "示例",
+    "generated": "生成的图片",
+    "useExample": "使用此示例",
+    "loading": "正在生成...",
+    "error": "生成图片时出错",
+    "success": "图片生成成功"
+  },
+  "form": {
+    "prompt": "提示词",
+    "negativePrompt": "负面提示词",
+    "aspectRatio": "宽高比",
+    "style": "风格",
+    "numSteps": "步数",
+    "styleStrength": "风格强度",
+    "numOutputs": "输出数量",
+    "guidanceScale": "引导比例",
+    "seed": "随机种子",
+    "useDoodle": "使用涂鸦",
+    "adapterScale": "适配器比例",
+    "adapterFactor": "适配器因子"
+  }
+}

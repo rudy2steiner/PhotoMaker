@@ -1,0 +1,186 @@
+{
+  "common": {
+    "title": "Photo Maker",
+    "description": "Transform your photos with the power of AI",
+    "upload": "Upload Photos",
+    "uploadUrl": "Upload from URL",
+    "add": "Add",
+    "generate": "Generate",
+    "options": "Options",
+    "examples": "Examples",
+    "generated": "Generated Images",
+    "useExample": "Use This Example",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "exampleLoaded": "Example settings loaded successfully",
+    "exampleError": "Failed to load example",
+    "table": {
+      "photos": "Photos",
+      "prompt": "Prompt",
+      "style": "Style",
+      "negativePrompt": "Negative Prompt",
+      "actions": "Actions"
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "gallery": "Gallery",
+    "blog": "Blog"
+  },
+  "form": {
+    "prompt": "Prompt",
+    "negativePrompt": "Negative Prompt",
+    "aspectRatio": "Aspect Ratio",
+    "style": "Style",
+    "numSteps": "Number of Steps",
+    "styleStrength": "Style Strength",
+    "numOutputs": "Number of Outputs",
+    "guidanceScale": "Guidance Scale",
+    "seed": "Seed",
+    "useDoodle": "Use Doodle",
+    "adapterScale": "Adapter Scale",
+    "adapterFactor": "Adapter Factor"
+  },
+  "hero": {
+    "tagline": "AI-Powered Photo Generation",
+    "title": "Transform Your Photos with AI Magic",
+    "description": "Upload your photos and let our AI transform them into stunning new styles. Perfect for portraits, professional shots, and creative transformations."
+  },
+  "benefits": {
+    "title": "Why Choose PhotoMaker",
+    "items": {
+      "quality": {
+        "title": "Professional Quality",
+        "description": "Get studio-quality results from your everyday photos"
+      },
+      "styles": {
+        "title": "Multiple Styles",
+        "description": "Choose from various artistic styles and transformations"
+      },
+      "speed": {
+        "title": "Fast Processing",
+        "description": "Generate new photos in seconds with our optimized AI"
+      },
+      "batch": {
+        "title": "Batch Processing",
+        "description": "Transform multiple photos at once to save time"
+      }
+    }
+  },
+  "features": {
+    "title": "Advanced Features",
+    "items": {
+      "styleTransfer": {
+        "title": "Style Transfer",
+        "description": "Apply various artistic styles while maintaining facial features"
+      },
+      "customPrompts": {
+        "title": "Custom Prompts",
+        "description": "Fine-tune your results with detailed text prompts"
+      },
+      "batchProcessing": {
+        "title": "Batch Processing",
+        "description": "Transform up to 4 photos simultaneously"
+      },
+      "highResolution": {
+        "title": "High Resolution",
+        "description": "Generate high-quality images suitable for printing"
+      }
+    }
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "steps": {
+      "upload": {
+        "number": "01",
+        "title": "Upload Photos",
+        "description": "Upload up to 4 photos you want to transform"
+      },
+      "style": {
+        "number": "02",
+        "title": "Choose Style",
+        "description": "Select from various styles or create custom prompts"
+      },
+      "generate": {
+        "number": "03",
+        "title": "Generate",
+        "description": "Let our AI work its magic"
+      },
+      "download": {
+        "number": "04",
+        "title": "Download",
+        "description": "Save your transformed photos"
+      }
+    }
+  },
+  "testimonials": {
+    "title": "Trusted by Industry Professionals",
+    "subtitle": "See what leading photographers and creative professionals are saying about PhotoMaker",
+    "items": [
+      {
+        "name": "Emily Chen",
+        "role": "Lead Photographer",
+        "company": "Studio Visuals",
+        "quote": "PhotoMaker has revolutionized our studio workflow. The AI-powered transformations are incredibly natural and save us hours of post-processing time.",
+        "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&h=150&q=80"
+      },
+      {
+        "name": "Michael Rodriguez",
+        "role": "Creative Director",
+        "company": "Artisan Media",
+        "quote": "The versatility of styles and the precision of the results are outstanding. We've integrated PhotoMaker into our production pipeline.",
+        "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=150&h=150&q=80"
+      },
+      {
+        "name": "Sarah Thompson",
+        "role": "Portrait Specialist",
+        "company": "Elite Portraits",
+        "quote": "The attention to detail in preserving facial features while applying creative transformations is remarkable. It's become an essential tool.",
+        "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=150&h=150&q=80"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "How many photos can I transform at once?",
+        "answer": "You can upload and transform up to 4 photos simultaneously in a single batch."
+      },
+      {
+        "question": "What file formats are supported?",
+        "answer": "We support common image formats including JPG, PNG, and WebP."
+      },
+      {
+        "question": "How long does the generation process take?",
+        "answer": "Most transformations complete within 10-30 seconds, depending on the complexity."
+      },
+      {
+        "question": "Can I use custom prompts?",
+        "answer": "Yes, you can provide custom text prompts to guide the AI transformation process."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to Transform Your Photos?",
+    "description": "Start creating stunning AI-generated photos today",
+    "button": "Try PhotoMaker Now"
+  },
+  "footer": {
+    "product": "Product",
+    "features": "Features",
+    "examples": "Examples",
+    "pricing": "Pricing",
+    "support": "Support",
+    "helpCenter": "Help Center",
+    "contact": "Contact Us",
+    "community": "Community",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookies": "Cookie Policy",
+    "languages": "Languages",
+    "rights": "All rights reserved."
+  }
+}
