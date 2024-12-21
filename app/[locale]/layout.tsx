@@ -16,7 +16,7 @@ export function generateStaticParams() {
 }
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://photomaker.ai'),
+  metadataBase: new URL('https://photomaker.co'),
   title: {
     default: 'PhotoMaker - AI Photo Generation',
     template: '%s | PhotoMaker'
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://photomaker.ai',
+    url: 'https://photomaker.co',
     title: 'PhotoMaker - AI Photo Generation',
     description: 'Transform your photos with AI magic. Create stunning portraits and artistic transformations.',
     siteName: 'PhotoMaker'

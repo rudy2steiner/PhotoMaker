@@ -1,7 +1,7 @@
 {
   "common": {
     "title": "Photo Maker",
-    "description": "Transform your photos with the power of AI",
+    "description": "Customize your photo with PhotoMaker",
     "upload": "Upload Photos",
     "uploadUrl": "Upload from URL",
     "add": "Add",
@@ -43,16 +43,16 @@
     "adapterFactor": "Adapter Factor"
   },
   "hero": {
-    "tagline": "AI-Powered Photo Generation",
-    "title": "Transform Your Photos with AI Magic",
-    "description": "Upload your photos and let our AI transform them into stunning new styles. Perfect for portraits, professional shots, and creative transformations."
+    "tagline": "AI-Powered Photo Maker",
+    "title": "Customize Your Photo with PhotoMaker",
+    "description": "Upload your photo and PhotoMaker will turns it into new styles. PhotoMaker utilizes advanced transformer-based models and the latest AI research of PhotoMaker V2. Perfect for portraits, professional shots, and creative transformation."
   },
   "benefits": {
-    "title": "Why Choose PhotoMaker",
+    "title": "Why User Choose PhotoMaker",
     "items": {
       "quality": {
         "title": "Professional Quality",
-        "description": "Get studio-quality results from your everyday photos"
+        "description": "Get studio quality photo from daily photos"
       },
       "styles": {
         "title": "Multiple Styles",
@@ -60,11 +60,11 @@
       },
       "speed": {
         "title": "Fast Processing",
-        "description": "Generate new photos in seconds with our optimized AI"
+        "description": "Generate new photo in seconds with PhotoMaker"
       },
       "batch": {
         "title": "Batch Processing",
-        "description": "Transform multiple photos at once to save time"
+        "description": "Customize multiple photos at once to save time"
       }
     }
   },
@@ -72,20 +72,20 @@
     "title": "Advanced Features",
     "items": {
       "styleTransfer": {
-        "title": "Style Transfer",
-        "description": "Apply various artistic styles while maintaining facial features"
+        "title": "ID fidelity & Custom Prompts",
+        "description": "Ensures impressive ID fidelity, offering diversity, promising text controllability, and high quality photo"
       },
       "customPrompts": {
-        "title": "Custom Prompts",
-        "description": "Fine-tune your results with detailed text prompts"
+        "title": "Stylization Photo",
+        "description": "Support plenty styles,such as Photographic, Cinematic, Disney Character, Neonpunk"
       },
       "batchProcessing": {
         "title": "Batch Processing",
-        "description": "Transform up to 4 photos simultaneously"
+        "description": "Customize up to 4 photo simultaneously"
       },
       "highResolution": {
         "title": "High Resolution",
-        "description": "Generate high-quality images suitable for printing"
+        "description": "Generate high quality photo suitable for printing,instagram,twitter,facebook "
       }
     }
   },
@@ -94,28 +94,28 @@
     "steps": {
       "upload": {
         "number": "01",
-        "title": "Upload Photos",
-        "description": "Upload up to 4 photos you want to transform"
+        "title": "Upload Photo",
+        "description": "Upload Photos of someone you want to customize"
       },
       "style": {
         "number": "02",
-        "title": "Choose Style",
-        "description": "Select from various styles or create custom prompts"
+        "title": "Prompts & Style",
+        "description": "Enter a text prompt,choose preferred style: Photographic, Cinematic, Disney Character"
       },
       "generate": {
         "number": "03",
         "title": "Generate",
-        "description": "Let our AI work its magic"
+        "description": "Click the Generate button to start customizing"
       },
       "download": {
         "number": "04",
         "title": "Download",
-        "description": "Save your transformed photos"
+        "description": "Save your generated photo"
       }
     }
   },
   "testimonials": {
-    "title": "Trusted by Industry Professionals",
+    "title": "What Users Say About PhotoMaker",
     "subtitle": "See what leading photographers and creative professionals are saying about PhotoMaker",
     "items": [
       {
@@ -129,24 +129,32 @@
         "name": "Michael Rodriguez",
         "role": "Creative Director",
         "company": "Artisan Media",
-        "quote": "The versatility of styles and the precision of the results are outstanding. We've integrated PhotoMaker into our production pipeline.",
+        "quote": "PhotoMaker ensure the versatility of styles and the precision of the results are outstanding. We've integrated PhotoMaker into our production pipeline.",
         "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=150&h=150&q=80"
       },
       {
         "name": "Sarah Thompson",
         "role": "Portrait Specialist",
         "company": "Elite Portraits",
-        "quote": "The attention to detail in preserving facial features while applying creative transformations is remarkable. It's become an essential tool.",
+        "quote": "The attention to detail in preserving facial features while applying creative transformations is remarkable. PhotoMaker is an essential tool for photo maker.",
         "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=150&h=150&q=80"
       }
     ]
   },
   "faq": {
-    "title": "Frequently Asked Questions",
+    "title": "FAQs Of PhotoMaker",
     "items": [
       {
-        "question": "How many photos can I transform at once?",
-        "answer": "You can upload and transform up to 4 photos simultaneously in a single batch."
+        "question": "How about PhotoMaker V2?",
+        "answer": "PhotoMaker V2 Improved ID Fidelity and Better Controllability than PhotoMaker V1"
+      },
+      {
+        "question": "How to use PhotoMaker V2?",
+        "answer": "How to use PhotoMaker V2 can be found in https://github.com/TencentARC/PhotoMaker"
+      },
+      {
+        "question": "How many photos can I customize at once?",
+        "answer": "You can upload and customize up to 4 photos simultaneously in a single batch."
       },
       {
         "question": "What file formats are supported?",
@@ -154,17 +162,22 @@
       },
       {
         "question": "How long does the generation process take?",
-        "answer": "Most transformations complete within 10-30 seconds, depending on the complexity."
+        "answer": "Most customize complete within 10-30 seconds, depending on the complexity."
       },
       {
         "question": "Can I use custom prompts?",
-        "answer": "Yes, you can provide custom text prompts to guide the AI transformation process."
+        "answer": "Yes, you can provide custom text prompts to guide PhotoMaker customize process."
+      },
+
+      {
+        "question": "The Technology Behind PhotoMaker?",
+        "answer": "PhotoMaker utilizes advanced transformer-based models and the latest AI research of PhotoMaker V2"
       }
     ]
   },
   "cta": {
-    "title": "Ready to Transform Your Photos?",
-    "description": "Start creating stunning AI-generated photos today",
+    "title": "Ready to Customize Photos with PhotoMaker?",
+    "description": "Start creating stunning AI generated photos today",
     "button": "Try PhotoMaker Now"
   },
   "footer": {

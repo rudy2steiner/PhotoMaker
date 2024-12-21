@@ -26,7 +26,7 @@ export async function POST(request: Request) {
       adapter_conditioning_scale: Number(formData.get('adapter_conditioning_scale')) || PHOTOMAKER_CONFIG.DEFAULT_PARAMS.adapter_conditioning_scale,
       adapter_conditioning_factor: Number(formData.get('adapter_conditioning_factor')) || PHOTOMAKER_CONFIG.DEFAULT_PARAMS.adapter_conditioning_factor,
     });
-    
+    console.log('res:'+JSON.stringify(result.data));
     return NextResponse.json({ data: result.data });
   } catch (error) {
     console.error('Generation error:', error);

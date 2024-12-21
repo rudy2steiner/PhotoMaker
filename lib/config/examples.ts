@@ -5,34 +5,31 @@ export const EXAMPLE_PRESETS: Example[] = [
   {
     id: 1,
     images: [
-      'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&h=400&q=80',
-      'https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=400&h=400&q=80'
+      'https://images.unsplash.com/photo-1438761681033-6461ffad8d80'
     ],
-    prompt: 'professional portrait photo, natural lighting, soft background bokeh, high-end fashion magazine style, perfect face, flawless skin, cinematic color grading',
-    style: 'Portrait Photography',
-    negativePrompt: 'deformed, blurry, bad anatomy, disfigured, poorly drawn face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, blur, out of focus, long neck, distorted, oversaturated',
-    preview: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&h=800&q=80',
+    prompt: 'instagram photo, portrait photo of a woman img, colorful, perfect face, natural skin, hard shadows, film grain',
+    style: '(No style)',
+    negativePrompt: 'asymmetry, worst quality, low quality, illustration, 3d, 2d, painting, cartoons, sketch, open mouth',
     options: {
       aspectRatio: PHOTOMAKER_CONFIG.DEFAULT_PARAMS.aspect_ratio_name,
-      styleStrength: 20,
-      numSteps: 25,
+      styleStrength: PHOTOMAKER_CONFIG.DEFAULT_PARAMS.style_strength_ratio,
+      numSteps: PHOTOMAKER_CONFIG.DEFAULT_PARAMS.num_steps,
       useDoodle: false
     }
   },
   {
     id: 2,
     images: [
-      'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&h=400&q=80',
-      'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&h=400&q=80'
+      'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d',
+      'https://images.unsplash.com/photo-1552374196-c4e7ffc6e126'
     ],
-    prompt: 'cinematic portrait, moody lighting, dramatic shadows, anamorphic lens flare, professional photography, high-end retouching, editorial style',
-    style: 'Cinematic',
-    negativePrompt: 'cartoon, anime, illustration, painting, drawing, artwork, oversaturated, high contrast, grainy, blurry, soft, out of focus, bad composition, amateur, unprofessional',
-    preview: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&h=800&q=80',
+    prompt: 'professional headshot, business attire, confident pose, studio lighting, a man img',
+    style: 'Photographic (Default)',
+    negativePrompt: 'blurry, oversaturated, cartoon, painting, illustration, low quality',
     options: {
       aspectRatio: PHOTOMAKER_CONFIG.DEFAULT_PARAMS.aspect_ratio_name,
       styleStrength: 30,
-      numSteps: 30,
+      numSteps: 25,
       useDoodle: false
     }
   }

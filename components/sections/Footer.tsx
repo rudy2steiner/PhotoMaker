@@ -121,7 +121,7 @@ export function Footer() {
                     locale={lang.code}
                     className="text-sm text-muted-foreground hover:text-primary"
                   >
-                    {lang.label}
+                    {lang.nativeName}
                   </Link>
                 </Button>
               ))}

@@ -30,7 +30,7 @@ export function useImageGeneration() {
     
     try {
       const result = await ImageGenerationService.generateImage(params);
-      setGeneratedImages(result.data);
+      setGeneratedImages(result.data[0]);
       toast({
         title: 'Success',
         description: 'Images generated successfully',

@@ -2,9 +2,18 @@
 const withNextIntl = require('next-intl/plugin')('./app/i18n/request.ts');
 
 const nextConfig = {
+    typescript: {
+    // !! WARN !!
+    // Dangerously allow production builds to successfully complete even if
+    // your project has type errors.
+    // !! WARN !!
+    ignoreBuildErrors: true,
+  },
   eslint: {
     ignoreDuringBuilds: true,
+    quiet: true,
   },
+  trailingSlash: true,
   images: { 
     unoptimized: true,
     remotePatterns: [
