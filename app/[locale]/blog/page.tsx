@@ -8,7 +8,7 @@ export const dynamic = 'force-dynamic';
 export const revalidate = 3600; // Revalidate every hour
 
 export const metadata: Metadata = {
-  title: 'Blog | PhotoMaker',
+  title: 'Blog',
   description: 'Latest updates, tutorials, and news about PhotoMaker AI',
 };
 

@@ -11,7 +11,6 @@ const nextConfig = {
   },
   eslint: {
     ignoreDuringBuilds: true,
-    quiet: true,
   },
   trailingSlash: true,
   images: { 

@@ -25,7 +25,7 @@ export default function ContactPage({ params: { locale } }: Props) {
           <section>
             <h2 className="text-2xl font-semibold mb-4">Contact Information</h2>
             <div className="space-y-2">
-              <p>Email: support@photomaker.com</p>
+              <p>Email: support@photomaker.co</p>
               <p>Hours: Monday - Friday, 9:00 AM - 5:00 PM EST</p>
             </div>
           </section>

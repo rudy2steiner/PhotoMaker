@@ -8,6 +8,7 @@ import { I18nProvider } from '@/app/i18n/provider';
 import { locales, isValidLocale } from '@/app/i18n/config';
 import { Metadata } from 'next';
 import '../globals.css';
+import { Analytics } from "@vercel/analytics/react";
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -16,24 +17,24 @@ export function generateStaticParams() {
 }
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://photomaker.co'),
+  metadataBase: new URL('https://www.photomaker.co'),
   title: {
-    default: 'PhotoMaker - AI Photo Generation',
+    default: 'PhotoMaker - AI Photo Maker',
     template: '%s | PhotoMaker'
   },
-  description: 'Transform your photos with AI magic. Create stunning portraits and artistic transformations.',
+  description: 'Customize your photo with AI PhotoMaker. Create stunning portraits and artistic photo.',
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://photomaker.co',
-    title: 'PhotoMaker - AI Photo Generation',
-    description: 'Transform your photos with AI magic. Create stunning portraits and artistic transformations.',
+    url: 'https://www.photomaker.co',
+    title: 'PhotoMaker - AI Photo Maker',
+    description: 'Customize your photo with AI PhotoMaker. Create stunning portraits and artistic photo.',
     siteName: 'PhotoMaker'
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'PhotoMaker - AI Photo Generation',
-    description: 'Transform your photos with AI magic. Create stunning portraits and artistic transformations.'
+    title: 'PhotoMaker - AI Photo Maker',
+    description: 'Customize your photo with AI PhotoMaker. Create stunning portraits and artistic photo.'
   },
   robots: {
     index: true,
@@ -63,6 +64,9 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} suppressHydrationWarning>
+      <head>
+            <script defer data-domain="photomaker.co" src="https://app.pageview.app/js/script.js"></script>
+       </head>
       <body className={inter.className}>
         <I18nProvider locale={locale} messages={messages} timeZone="UTC">
           <div className="min-h-screen flex flex-col">
@@ -74,6 +78,7 @@ export default async function LocaleLayout({
           </div>
           <Toaster />
         </I18nProvider>
+        <Analytics />
       </body>
     </html>
   );
