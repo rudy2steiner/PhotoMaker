@@ -20,28 +20,21 @@ export default function Footer() {
           rel="noreferrer"
           className="font-bold hover:underline transition underline-offset-2"
         >
-          Next.js
+          Next.js,
         </a>
         <a
           href="https://photomaker.co/"
           target="_blank"
           className="font-bold hover:underline transition underline-offset-2"
         >
-          ,PhotoMaker
-        </a>
-        <a
-          href="https://www.svgtextmaker.com/"
-          target="_blank"
-          className="font-bold hover:underline transition underline-offset-2"
-        >
-          ,Svg Text Maker
+          PhotoMaker
         </a>
         <a
           href="https://www.imagemakerai.co/"
           target="_blank"
           className="font-bold hover:underline transition underline-offset-2"
         >
-          ,Image Maker Ai
+           Image Maker Ai
         </a>
         <a
           href="https://www.svgviewer.co/"
