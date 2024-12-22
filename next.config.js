@@ -23,6 +23,10 @@ const nextConfig = {
       {
         protocol: 'https',
         hostname: 'i.pravatar.cc',
+      },
+      {
+        protocol: 'https',
+        hostname: 'tencentarc-photomaker-v2.hf.space',
       }
     ]
   },
