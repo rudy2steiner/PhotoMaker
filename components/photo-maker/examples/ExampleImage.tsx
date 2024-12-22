@@ -39,7 +39,7 @@ export function ExampleImage({
           alt={alt}
           className={cn(
             "absolute inset-0 w-full h-full object-cover transition-opacity duration-200",
-            loaded ? 'opacity-100' : 'opacity-0'
+           'opacity-100'
           )}
           loading="lazy"
           onError={() => setError(true)}

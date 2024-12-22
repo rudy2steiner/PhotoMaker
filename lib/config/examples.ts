@@ -5,7 +5,7 @@ export const EXAMPLE_PRESETS: Example[] = [
   {
     id: 1,
     images: [
-      'https://images.unsplash.com/photo-1438761681033-6461ffad8d80'
+      '/demo/bc.jpeg'
     ],
     prompt: 'instagram photo, portrait photo of a woman img, colorful, perfect face, natural skin, hard shadows, film grain',
     style: '(No style)',
@@ -20,8 +20,8 @@ export const EXAMPLE_PRESETS: Example[] = [
   {
     id: 2,
     images: [
-      'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d',
-      'https://images.unsplash.com/photo-1552374196-c4e7ffc6e126'
+      '/demo/demo0.jpeg',
+      '/demo/demo1.jpeg'
     ],
     prompt: 'professional headshot, business attire, confident pose, studio lighting, a man img',
     style: 'Photographic (Default)',
