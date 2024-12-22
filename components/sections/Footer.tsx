@@ -5,6 +5,7 @@ import { Camera } from 'lucide-react';
 import { Link } from '@/lib/navigation';
 import { Button } from '@/components/ui/button';
 import { languageConfig } from '@/lib/config/navigation';
+import Image from "next/image";
 
 export function Footer() {
   const t = useTranslations();
@@ -17,7 +18,7 @@ export function Footer() {
           {/* Brand */}
           <div className="lg:col-span-2">
             <Link href="/" className="flex items-center space-x-2 mb-4">
-              <Camera className="h-6 w-6" />
+              <Image className="h-8 w-auto" src="/maker.png" alt="photo maker" width={6} height={6}/>
               <span className="font-bold text-xl">{t('common.title')}</span>
             </Link>
             <p className="text-sm text-muted-foreground">

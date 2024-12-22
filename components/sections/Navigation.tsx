@@ -6,6 +6,7 @@ import { Link } from '@/lib/navigation';
 import { NavItem } from '@/components/navigation/NavItem';
 import { LanguageSwitch } from '@/components/navigation/LanguageSwitch';
 import { navigationConfig } from '@/lib/config/navigation';
+import Image from "next/image";
 
 export function Navigation() {
   const t = useTranslations();
@@ -16,7 +17,7 @@ export function Navigation() {
         {/* Logo - Left */}
         <div className="flex-none">
           <Link href="/" className="flex items-center space-x-2">
-            <Camera className="h-6 w-6" />
+            <Image className="h-8 w-auto" src="/maker.png" alt="photo maker" width={6} height={6}/>
             <span className="font-bold text-xl">{t('common.title')}</span>
           </Link>
         </div>

@@ -35,12 +35,12 @@ export function GenerationOptions({ options, onChange }: GenerationOptionsProps)
     <div className="space-y-4">
       <div className="space-y-4">
         <div>
-          <Label>{t('prompt')}</Label>
+          <Label>{t('prompt')}(trigger word: img, such as: man img or woman img or girl img)</Label>
           <Textarea
             value={options.prompt}
             onChange={(e) => onChange({ prompt: e.target.value })}
             className="min-h-[100px] resize-none"
-            placeholder="Describe what you want to generate, e.g.: professional portrait photo, natural lighting, soft background"
+            placeholder="Describe what you want to generate, e.g.:instagram photo, portrait photo of a woman img, colorful, perfect face, natural skin, hard shadows, film grain"
           />
         </div>
         <div>
