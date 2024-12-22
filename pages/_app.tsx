@@ -6,6 +6,9 @@ import "../styles/globals.css";
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
+     <head>
+        <script defer data-domain="photomaker.co" src="https://app.pageview.app/js/script.js"></script>
+      </head>
       <Component {...pageProps} />
       <Analytics />
 
