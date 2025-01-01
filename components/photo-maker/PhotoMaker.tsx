@@ -12,6 +12,14 @@ import { useToast } from '@/hooks/use-toast';
 import { usePhotoMakerStore } from '@/lib/store';
 import { PHOTOMAKER_CONFIG } from '@/lib/config/constants';
 
+declare global {
+  namespace JSX {
+    interface IntrinsicElements {
+      'gradio-app': any;
+    }
+  }
+}
+
 export function PhotoMaker() {
   const t = useTranslations();
   const { toast } = useToast();
